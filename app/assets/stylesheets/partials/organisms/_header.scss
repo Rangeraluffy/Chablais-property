@@ -1,8 +1,11 @@
 /* =============================
  * HEADER
  =============================== */
+ .navbar {
+   background-color: #2A2733;
+ }
  .navbar a{
-   color: black;
+   color: white;
    font-size: 20px;
  }
 
@@ -12,8 +15,8 @@
 
  .form-control {
    display: inline-block;
-     width: 85%;
-     vertical-align: middle;
+  width: 85%;
+   vertical-align: middle;
  }
 
  .collapse{
