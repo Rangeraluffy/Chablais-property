@@ -1,6 +1,6 @@
-# Peillex Real Estate 
+# Peillex Real Estate
 
-# Capstone project proposal outline
+## Capstone project proposal outline
 
 Use the Markdown format to write and submit your project proposal.
 

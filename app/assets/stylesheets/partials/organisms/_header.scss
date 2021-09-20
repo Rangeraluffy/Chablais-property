@@ -1,0 +1,28 @@
+/* =============================
+ * HEADER
+ =============================== */
+ .navbar a{
+   color: black;
+   font-size: 20px;
+ }
+
+ .navbar-nav {
+   margin: auto;
+ }
+
+ .form-control {
+   display: inline-block;
+     width: 85%;
+     vertical-align: middle;
+ }
+
+ .collapse{
+   max-width: 100%;
+ }
+
+.navbar .btn{
+  width: 16%;
+  background-color: #21aeda;
+  color: white;
+  border: none;
+}
