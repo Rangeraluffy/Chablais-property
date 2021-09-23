@@ -41,6 +41,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  #Adding gem figaro
+  gem "figaro"
 end
 
 
@@ -49,3 +51,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #Add gem devise
 gem 'devise'
+
+# Use CarrierWaver
+gem  'carrierwave',  "0.10.0"
+gem 'fog', '~> 1.37.0'
+
+# Image rezising
+gem 'mini_magick'
