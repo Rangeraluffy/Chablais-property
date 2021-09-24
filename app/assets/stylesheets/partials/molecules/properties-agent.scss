@@ -1,0 +1,142 @@
+.property-main-photo
+{
+  height: 50%;
+  width: 50%;
+}
+.property-single{
+  padding-top: 30px;
+}
+
+.title-single-box {
+  border-left: 3px solid #21aeda;
+  padding: 15px;
+}
+.title-single{
+  font-size: 3.5rem;
+}
+
+.color-text-a{
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #555555;
+}
+
+.property-price{
+  margin: 0 auto;
+}
+
+.property-price .card-header-c {
+    padding: 0;
+}
+
+.card-box-ico {
+    padding: 1rem 3rem 1rem 2.5rem;
+    border: 5px solid #21aeda;
+}
+
+.align-self-center {
+    align-self: center!important;
+}
+
+.title-box-d {
+    padding-bottom: 1.8rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.title-box-d .title-d {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.summary-list {
+    padding-right: 1rem;
+    color: #000000;
+}
+
+.summary-list .list {
+    padding: 0;
+    line-height: 2;
+}
+
+.summary-list .list span{
+    font-size: 1rem;
+}
+
+.justify-content-between {
+    justify-content: space-between!important;
+}
+
+.span-property-summary{
+  font-size: 1rem;
+}
+
+// Property Description
+
+.title-box-d {
+    padding-bottom: 1.8rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.title-box-d .title-d {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.description{
+  font-size: 1rem;
+}
+
+.color-text-a {
+    text-decoration: none;
+    color: #555555;
+}
+
+// Ameneties
+.title-box-d {
+    padding-bottom: 1.8rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.title-box-d .title-d {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.title-box-d .title-d:after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background-color: #21aeda;
+    bottom: 20px;
+    left: 0;
+}
+
+.list-a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 2;
+    padding: 0;
+    list-style: none;
+}
+
+.list-a li:before {
+    content: "";
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    background-color: #313131;
+    top: 15px;
+    left: 0;
+}
+
+.list-a li {
+    position: relative;
+    width: 50%;
+    float: left;
+    padding-left: 25px;
+    padding-right: 5px;
+}
