@@ -43,6 +43,9 @@ ActiveRecord::Schema.define(version: 2021_09_17_072537) do
     t.integer "price"
     t.integer "rooms"
     t.integer "bathrooms"
+    t.integer "bedrooms"
+    t.integer "area"
+    t.integer "garages"
     t.string "photo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

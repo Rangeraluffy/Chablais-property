@@ -27,17 +27,28 @@
   </div>
 
   <div class="form-group">
-    <%= form.label :rooms %>
-    <%= form.number_field :rooms, class: "form-control" %>
+    <%= form.label :bedrooms %>
+    <%= form.number_field :bedrooms, class: "form-control" %>
   </div>
+
+  <div class="form-group">
+    <%= form.label :area %>
+    <%= form.number_field :area, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :garages %>
+    <%= form.number_field :garages, class: "form-control" %>
+  </div>
+
 
   <div class="form-group">
     <%= form.label :photo %>
     <%= form.file_field :photo, class: "form-control" %>
     <%= form.hidden_field :photo_cache %>
 
-    <% if @property.present? %>
-      <%= image_tag @property.thumb.url class: "mt-4" %>
+    <% if @property.photo.present? %>
+      <%= image_tag @property.photo.thumb.url, class: "mt-4" %>
     <% end %>
   </div>
 
