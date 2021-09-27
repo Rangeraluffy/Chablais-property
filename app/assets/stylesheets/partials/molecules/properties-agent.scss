@@ -1,10 +1,13 @@
+// photo
+
+.photo-overlay{
+  height: 750px;
+}
+
 .property-main-photo
 {
-  height: 50%;
-  width: 50%;
-}
-.property-single{
-  padding-top: 30px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .title-single-box {
@@ -94,6 +97,11 @@
 }
 
 // Ameneties
+
+.summary-desciption{
+  padding: 30px 0px;
+}
+
 .title-box-d {
     padding-bottom: 1.8rem;
     margin-bottom: 1rem;
