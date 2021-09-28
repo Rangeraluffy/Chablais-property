@@ -74,6 +74,23 @@
   font-size: 1rem;
 }
 
+.price-metters{
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.title-c{
+  text-align: center;
+}
+
+.card-box-ico {
+  padding: 0rem 3rem 0rem 2.5rem;
+  border: 5px solid #21aeda;
+}
+
+.property-summary {
+    padding-top: 60px;
+}
 // Property Description
 
 .title-box-d {
@@ -129,6 +146,7 @@
     line-height: 2;
     padding: 0;
     list-style: none;
+    font-size: 1.3rem;
 }
 
 .list-a li:before {
@@ -137,14 +155,14 @@
     height: 2px;
     position: absolute;
     background-color: #313131;
-    top: 15px;
+    top: 21px;
     left: 0;
 }
 
 .list-a li {
     position: relative;
-    width: 50%;
+    width: 33%;
     float: left;
     padding-left: 25px;
-    padding-right: 5px;
+    padding-right: 50px;
 }

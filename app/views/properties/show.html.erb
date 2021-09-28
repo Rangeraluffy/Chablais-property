@@ -29,7 +29,11 @@
               <div class="card-header-c d-flex">
                 <div class="card-box-ico">
                   <div class="card-title-c align-self-center">
-                    <h1 class="title-c"><%= @property.price %>$</h1>
+                    <h1 class="title-c"><%= @property.price > 0 ? number_to_currency(@property.price) : "For Sale" %></h1>
+                    <p><%= link_to "Est. Price per Square metters #{ number_to_currency((@property.price / @property.area))}", "#", class: "price-metters" %></p>
+                  </div>
+                  <div class="card-title-c ">
+                    <p><%= link_to "Can i afford this property ?", "#", class: "price-metters" %></p>
                   </div>
                 </div>
               </div>
@@ -54,7 +58,7 @@
                   </li>
                   <li class="d-flex justify-content-between">
                     <strong class="span-property-summary">Price :</strong>
-                    <span><%= @property.price %>$</span>
+                    <span><%= @property.price > 0 ? number_to_currency(@property.price) : "For Sale" %></span>
                   </li>
                   <li class="d-flex justify-content-between">
                     <strong class="span-property-summary">Rooms :</strong>
@@ -65,15 +69,15 @@
                     <span><%= @property.bathrooms %></span>
                   </li>
                   <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">bedrooms :</strong>
+                    <strong class="span-property-summary">Bedrooms :</strong>
                     <span><%= @property.bedrooms %></span>
                   </li>
                   <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">area :</strong>
+                    <strong class="span-property-summary">Area :</strong>
                     <span><%= @property.area %>m²</span>
                   </li>
                   <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">garages :</strong>
+                    <strong class="span-property-summary">Garages :</strong>
                     <span><%= @property.garages %></span>
                   </li>
                 </ul>
@@ -90,8 +94,8 @@
               </div>
               <div class="property-description">
                 <p class="description color-text-a">
-                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere
-                  blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar quam id dui posuere blandit.
+                  <%= @property.name %>
+                  <%= simple_format @property.details %>
                 </p>
               </div>
               <div class="row section-t3">
@@ -100,8 +104,27 @@
                     <h3 class="title-d">Amenities</h3>
                   </div>
                 </div>
+                <div class="amenities-list color-text-a">
+                  <ul class="list-a no-margin">
+                    <li><strong>Rooms</strong><br>
+                      <span class="amenities-point"><%= @property.rooms %></span>
+                    </li>
+                    <li><strong>Bathrooms</strong><br>
+                      <span class="amenities-point"><%= @property.bathrooms %></span>
+                    </li>
+                    <li><strong>Bedrooms</strong><br>
+                      <span class="amenities-point"><%= @property.bedrooms %></span>
+                    </li>
+                    <li><strong>Area</strong><br>
+                      <span class="amenities-point"><%= @property.area %></span>
+                    </li>
+                    <li><strong>Garages</strong><br>
+                      <span class="amenities-point"><%= @property.garages %></span>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <!-- <div class="amenities-list color-text-a"> <ul class="list-a no-margin"> <li></li> <li></li> <li></li> <li></li> <li></li> <li></li> </ul> </div> -->
+
             </div>
           </div>
         </div>
