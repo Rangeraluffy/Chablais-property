@@ -149,16 +149,6 @@
     font-size: 1.3rem;
 }
 
-.list-a li:before {
-    content: "";
-    width: 10px;
-    height: 2px;
-    position: absolute;
-    background-color: #313131;
-    top: 21px;
-    left: 0;
-}
-
 .list-a li {
     position: relative;
     width: 33%;
