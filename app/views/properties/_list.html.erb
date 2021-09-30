@@ -1,9 +1,12 @@
-<% @properties.each do |property| %>
+<% properties.each do |property| %>
     <div class="col-sm-4">
       <div class="card-box-a card-shadow">
-        <div class="img-box-a">
-          <%= link_to image_tag("house.jpg", :class=>"img-a img-fluid") %>
-        </div>
+
+
+          <div class="property-thumb" style="background-image: url(<%= property_thumbnail_url (property)%>)">
+          </div>
+
+
         <div class="card-overlay">
           <div class="card-overlay-a-content">
             <div class="card-header-a">
