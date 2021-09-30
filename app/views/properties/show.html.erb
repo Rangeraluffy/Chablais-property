@@ -95,8 +95,11 @@
               <div class="property-description">
                 <p class="description color-text-a">
                   <%= @property.name %>
-                  <%= simple_format @property.details %>
-                </p>
+                  <div id="prop-details" class="mb-5">
+                    <%= simple_format @property.details %>
+                  </div>
+
+                  <button type="button" name="button" class="btn btn-outline-info">Show more</button>
               </div>
               <div class="row section-t3">
                 <div class="col-sm-12">

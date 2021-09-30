@@ -1,6 +1,5 @@
 <% @properties.each do |property| %>
-  <section class="property-grid grid">
-    <div class="col-md-4">
+    <div class="col-sm-4">
       <div class="card-box-a card-shadow">
         <div class="img-box-a">
           <%= link_to image_tag("house.jpg", :class=>"img-a img-fluid") %>
@@ -47,9 +46,4 @@
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- <div class="col-md-4"> <%= link_to(property_thumbnail(property), property_path(property)) %> <h2 class="mt-3"><%= link_to property.name, property_path(property) %></h2> <p><%= property.address %></p> <div class="amenities"> <span><i
-  data-feather="users"></i></span> <span></span> <span></span> </div> </div> -->
-
 <% end %>
