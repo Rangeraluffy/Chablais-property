@@ -58,5 +58,5 @@ gem 'fog', '~> 1.37.0'
 
 # Image rezising
 gem 'mini_magick'
-# Gem Webpacker 
+# Gem Webpacker
 gem 'webpacker', '~> 3.0'

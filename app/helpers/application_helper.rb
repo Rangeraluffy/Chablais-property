@@ -4,4 +4,5 @@ module ApplicationHelper
     thumb = account.image.present? ? account.image.thumb.url : ""
     image_tag thumb, with: width, class: "profile-pic img-circle"
   end
+
 end
