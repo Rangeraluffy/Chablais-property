@@ -21,7 +21,7 @@
 
   <div class="form-group">
     <%= f.label :company %><br/>
-    <%= f.text_field :company %>
+    <%= f.text_field :company, class: "form-control" %>
   </div>
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
