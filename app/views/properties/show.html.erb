@@ -38,6 +38,7 @@
                 </div>
               </div>
             </div>
+            <iframe class="map-show-property" width="480" height="240" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22037.378083050367!2d6.443705056292688!3d46.33620063721233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c3e1f0e8c4b59%3A0xd44d2bcefe6419bc!2s74200%20Allinges!5e0!3m2!1sfr!2sfr!4v1633361806900!5m2!1sfr!2sfr=<%= @property.address.to_param %>" allowfullscreen></iframe>
             <div class="property-summary">
               <div class="row">
                 <div class="col-sm-12">
@@ -137,6 +138,9 @@
     <!-- ======= Start Last Property ======= -->
     <section class="property-grid grid">
       <div class="container">
+        <div class="title-single-box">
+          <h1 class="title-single">Other properties by <%= @agent.full_name %></h1>
+        </div>
         <div class="row">
           <%= render "properties/list", properties: @agent_properties%>
         </div>
