@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: %i[ show edit update destroy ]
+  before_action :authenticate_account!, only: [:new, :create]
+  before_action :set_post, only: [ :show, :edit, :update, :destroy ]
+  before_action :can_access?, except: [:show]
 
   # GET /posts or /posts.json
   def index
@@ -26,10 +28,8 @@ class PostsController < ApplicationController
     respond_to do |format|
       if @post.save
         format.html { redirect_to @post, notice: "Post was successfully created." }
-        format.json { render :show, status: :created, location: @post }
       else
         format.html { render :new, status: :unprocessable_entity }
-        format.json { render json: @post.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -39,15 +39,14 @@ class PostsController < ApplicationController
     respond_to do |format|
       if @post.update(post_params)
         format.html { redirect_to @post, notice: "Post was successfully updated." }
-        format.json { render :show, status: :ok, location: @post }
       else
         format.html { render :edit, status: :unprocessable_entity }
-        format.json { render json: @post.errors, status: :unprocessable_entity }
       end
     end
   end
 
-  # DELETE /posts/1 or /posts/1.json
+  # DELETE /posts/1
+  # DELETE /posts/1.json
   def destroy
     @post.destroy
     respond_to do |format|
@@ -61,6 +60,14 @@ class PostsController < ApplicationController
     def set_post
       @post = Post.find(params[:id])
     end
+
+      def can_access?
+        @show_sidebar = true
+
+        unless current_account.admin?
+          redirect_to root_url, flash: { danger: "You do not have access to view this page"}
+        end
+      end
 
     # Only allow a list of trusted parameters through.
     def post_params
