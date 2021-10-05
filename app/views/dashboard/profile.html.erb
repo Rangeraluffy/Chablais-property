@@ -1,41 +1,24 @@
-<p><%= @account.full_name %></p>
-
 <div class="container">
   <div class="row">
     <div class="col-sm-12 col-lg-8">
       <div class="title-single-box">
         <h1 class="title-single"><%= @account.full_name %></h1>
         <span class="color-text-a"><%= @account.company %></span>
+        <span class="color-text-a">Registered for <%= time_ago_in_words @account.created_at %></span>
       </div>
     </div>
     <div class="col-sm-12 col-lg-4">
-      <%= render "properties/agent_details", agent: @account %>
+      <%= render "properties/profile_contact_details", agent: @account %>
     </div>
   </div>
 </div>
 
 <section class="property-single nav-arrow-b">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="property-main-photo" style="background-image:url('<%= property_photo_url(@properties.last)%>')">
-          <div class="photo-overlay"></div>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class="col-sm-12">
         <div class="summary-desciption row justify-content-between">
           <div class="col-md-5 col-lg-4">
-            <div class="property-price d-flex justify-content-center foo">
-              <div class="card-header-c d-flex">
-                <div class="card-box-ico">
-                  <div class="card-title-c ">
-                    <p><%= link_to "Can i afford this property ?", "#", class: "price-metters" %></p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="property-summary">
               <div class="row">
                 <div class="col-sm-12">
@@ -51,8 +34,8 @@
                     <span><%= @property_sold %></span>
                   </li>
                   <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Leased :</strong>
-                    <span><%= @property_leased %></span>
+                    <strong class="span-property-summary">Offer :</strong>
+                    <span><%= @property_offer %></span>
                   </li>
                   <li class="d-flex justify-content-between">
                     <strong class="span-property-summary">For Sale :</strong>
@@ -63,7 +46,6 @@
                     <span><%= @property_estimate %></span>
                   </li>
                 </ul>
-                <%= link_to 'Edit', edit_property_path(@property), class: "btn btn-lg btn-success" %>
               </div>
             </div>
           </div>
@@ -71,43 +53,16 @@
             <div class="row">
               <div class="col-sm-12">
                 <div class="title-box-d">
-                  <h3 class="title-d">Property Description</h3>
+                  <h3 class="title-d">Description</h3>
                 </div>
               </div>
               <div class="property-description">
                 <p class="description color-text-a">
-                  <%= @property.name %>
                   <div id="prop-details" class="mb-5">
                     <%= simple_format @account.details %>
                   </div>
 
                   <button type="button" name="button" class="btn btn-outline-info">Show more</button>
-              </div>
-              <div class="row section-t3">
-                <div class="col-sm-12">
-                  <div class="title-box-d">
-                    <h3 class="title-d">Amenities</h3>
-                  </div>
-                </div>
-                <div class="amenities-list color-text-a">
-                  <ul class="list-a no-margin">
-                    <li><strong>Rooms</strong><br>
-                      <span class="amenities-point"><i class="icons-amenities fas fa-home"></i><%= @property.rooms %></span>
-                    </li>
-                    <li><strong>Bathrooms</strong><br>
-                      <span class="amenities-point"><i class="icons-amenities fas fa-bath"></i><%= @property.bathrooms %></span>
-                    </li>
-                    <li><strong>Bedrooms</strong><br>
-                      <span class="amenities-point"><i class="icons-amenities fas fa-bed"></i><%= @property.bedrooms %></span>
-                    </li>
-                    <li><strong>Area</strong><br>
-                      <span class="amenities-point"><i class="icons-amenities far fa-square"></i><%= @property.area %></span>
-                    </li>
-                    <li><strong>Garages</strong><br>
-                      <span class="amenities-point"><i class="icons-amenities fas fa-car"></i><%= @property.garages %></span>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
@@ -120,7 +75,7 @@
     <section class="property-grid grid">
       <div class="container">
         <div class="title-single-box">
-          <h1 class="title-single">Other properties by <%= @agent.full_name %></h1>
+          <h1 class="title-single">Current listings by this agent</h1>
         </div>
         <div class="row">
           <%= render "properties/list", properties: @properties%>
