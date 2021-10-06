@@ -1,8 +1,6 @@
 <% posts.each do |post| %>
     <div class="col-sm-4">
       <div class="card-box-a card-shadow">
-
-
           <div class="property-thumb" style="background-image: url(<%= post_thumbnail_url (post)%>)">
             <%= link_to "", post_path(post) %>
           </div>
