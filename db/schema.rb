@@ -47,7 +47,7 @@ ActiveRecord::Schema.define(version: 2021_10_05_212414) do
     t.string "summary"
     t.text "body"
     t.string "image"
-    t.boolean "active"
+    t.boolean "active", default: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
