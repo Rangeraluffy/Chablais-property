@@ -1,0 +1,23 @@
+<% posts.each do |post| %>
+    <div class="col-sm-4">
+      <div class="card-box-a card-shadow">
+
+
+          <div class="property-thumb" style="background-image: url(<%= post_thumbnail_url (post)%>)">
+            <%= link_to "", post_path(post) %>
+          </div>
+
+
+        <div class="card-overlay">
+          <div class="card-overlay-a-content">
+            <div class="card-header-a">
+              <h2 class="card-title-a">
+                <h2 class="title-property"><%= link_to post.title, post_path(post) %></h2>
+                <p><%= post.summary %></p>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<% end %>

@@ -67,4 +67,34 @@
   </section>
   <!-- ======= End Agent Section ======= -->
 
+
+  <!-- ======= Start Title Latest Blog ======= -->
+  <section class="intro-single">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-8">
+          <div class="title-single-box">
+            <h1 class="title-single">Latest publish on blogs</h1>
+            <span class="color-text-a">You want to learn some news</span>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Title Latest Blog-->
+
+  <!-- ======= Start latest Blog ======= -->
+  <section class="property-grid grid">
+    <div class="container">
+      <div class="row">
+        <%= render "posts/list", posts: @posts %>
+      </div>
+    </div>
+  </section>
+  <!-- ======= End latest Blog======= -->
+
 </main>
