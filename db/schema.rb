@@ -66,7 +66,6 @@ ActiveRecord::Schema.define(version: 2021_10_05_212414) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "details"
-    t.boolean "for_sale", default: true
     t.string "status", default: "available"
     t.index ["account_id"], name: "index_properties_on_account_id"
   end
