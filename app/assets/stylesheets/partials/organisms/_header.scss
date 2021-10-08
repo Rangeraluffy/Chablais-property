@@ -1,31 +1,51 @@
-/* =============================
- * HEADER
- =============================== */
- .navbar {
-   background-color: #2A2733;
- }
- .navbar a{
-   color: white;
-   font-size: 20px;
- }
-
- .navbar-nav {
-   margin: auto;
- }
-
- .form-control {
-   display: inline-block;
-  width: 85%;
-   vertical-align: middle;
- }
-
- .collapse{
-   max-width: 100%;
- }
-
-.navbar .btn{
-  width: 16%;
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+// nav bar container
+.navbar-default {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
+}
+// nav bar spacing
+.navbar-default.navbar-trans .nav-item{
+  position: relative;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .navbar-default.navbar-trans .nav-item{
+    margin-left: 15px;
+  }
+}
+// custom font
+.navbar-default.navbar-trans .nav-link{
+  font-size: 1.1rem;
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+// animation behind title
+.navbar-default.navbar-trans .nav-link:before{
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  z-index: 0;
   background-color: #21aeda;
-  color: white;
-  border: none;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out 0.3s;
+}
+
+.navbar-default.navbar-trans .nav-link:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
 }
