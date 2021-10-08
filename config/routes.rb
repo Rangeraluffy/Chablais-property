@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'agencies/thonon'
+  get 'agencies/douvaine'
+  get 'agencies/sciez'
+  get 'information/about'
   devise_for :accounts
   resources :posts
   resources :properties
