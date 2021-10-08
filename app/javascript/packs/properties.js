@@ -2,12 +2,10 @@ $(function(){
   $("#show-tel").on("click", function(){
     var $this = $(this);
     $this.find("span").text( $this.data("telephone") );
-    console.log("clicked telephone");
   });
   $("#show-email").on("click", function(){
     var $this = $(this);
     $this.find("span").text( $this.data("telephone") );
-    console.log("clicked mail");
   });
   $("#toggleDetails").on("click", function(){
 
