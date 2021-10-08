@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'contact/contact'
   get 'agencies/thonon'
   get 'agencies/douvaine'
   get 'agencies/sciez'
