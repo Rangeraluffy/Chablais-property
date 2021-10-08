@@ -18,20 +18,33 @@
 .footer .footer-point{
   margin: auto;
   padding: 0;
+  font-weight: 600;
 }
  .footer{
-    background-color: #2A2733;
-     padding: 70px 0;
+    background-color: #f3f3f3;
+    padding: 70px 0;
+    box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
  }
  .footer-col{
     padding: 0 15px;
  }
- .footer-col h4{
-   color: white;
-   text-transform: capitalize;
-   margin-bottom: 35px;
-   font-weight: 500;
-   position: relative;
+ .footer-col{
+   .text-brand {
+     color: #000000;
+     font-size: 1.6rem;
+     font-weight: 600;
+     padding: 15px 0px;
+   }
+   @media (max-width: 767px) {
+     .text-brand {
+       font-size: 1.8rem;
+     }
+   }
+   .item-list-footer {
+     color: #000000;
+     font-size: 1.6rem;
+     font-weight: 600;
+   }
  }
  .footer-col h4::before{
    content: '';
@@ -51,13 +64,12 @@
    color: black;
    text-decoration: none;
    font-weight: 300;
-   color: #bbbbbb;
    display: block;
    font-size: 15px;
    transition: all 0.3s ease;
  }
  .footer-col ul li a:hover{
-   color: white;
+   color: #21aeda;
    padding-left: 8px;
  }
  .footer-col .social-links a{
@@ -69,12 +81,12 @@
    text-align: center;
    line-height: 40px;
    border-radius: 50%;
-   color: white;
+   color: black;
    transition: all 0.5s ease;
  }
  .footer-col .social-links a:hover{
-   color: #24262b;
-   background-color: white;
+   color: black;
+   background-color: #21aeda;
  }
 
  /* END FOOTER */
