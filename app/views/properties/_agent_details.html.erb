@@ -5,7 +5,7 @@
   <h3 class="4"><%= agent.full_name %></h3>
   <p><%= agent.company %></p>
 
-  <button class="btn btn-info text-uppercase" id="show-tel" data-tel="<%= agent.telephone %>"><i class="fas fa-phone"></i>Call</button>
-  <button class="btn btn-success text-uppercase"><i class="fas fa-phone"></i>Email</button>
+  <button class="btn btn-info text-uppercase" id="show-tel" data-telephone="<%= agent.telephone %>"><i class="fas fa-phone"></i>Call</button>
+  <button class="btn btn-success text-uppercase" id="show-email"><i class="fas fa-phone"></i>Email</button>
   <%= link_to "Profile", profile_path(agent.id), class: "btn btn-secondary text-uppercase" %>
 </div>
