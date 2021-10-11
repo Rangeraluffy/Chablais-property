@@ -1,21 +1,25 @@
 /* =============================
  * LEFT SIDE DASHBOARD
  =============================== */
-
-.left-side {
-   background-color: #453f54;
-}
+ .nav-bar-dashboard{
+   padding: 20px 30px;
+   text-align: center;
+ }
 
 .sidebar-sticky a {
-    color: white;
-    font-size: 16px;
+    color: black;
+    font-size: 20px;
     text-decoration: none;
     background-color: transparent;
 }
 
 .sidebar-sticky span {
-    color: white;
+    color: black;
     font-size: 20px;
     text-decoration: none;
     background-color: transparent;
+}
+
+.settings-title{
+  font-size: 25px;
 }

@@ -1,22 +1,23 @@
-<nav class="left-side col-md-2 d-none d-md-block sidebar">
+<nav class="nav-bar-dashboard col-md-2 d-none d-md-block sidebar">
+  <%= link_to image_tag("logo_2.png", class: "logo_signIn mb-4", alt: "logo_Peillex_Property")%>
   <div class="sidebar-sticky">
     <ul class="nav flex-column">
       <%= render "layouts/nav/#{ current_account.admin? ? 'admin' : 'user' }" %>
     </ul>
 
-<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-  <span>Settings</span>
+<h6 class="sidebar-heading d-flex text-center px-3 mt-4 mb-1 text-muted pb-3">
+  <h1 class="settings-title">Settings</h1>
 </h6>
 <ul class="nav flex-column mb-2">
-  <li class="nav-item">
+  <li class="nav-item mb-3">
     <%= link_to profile_path(current_account), class: "nav-link" do %>
-      <i data-feather="settings"></i>
+      <i class="far fa-user-circle pr-3"></i>
       My Profile
     <% end %>
   </li>
-  <li class="nav-item">
+  <li class="nav-item mb-3">
     <%= link_to edit_account_registration_path, class: "nav-link" do %>
-      <i data-feather="settings"></i>
+      <i class="fas fa-cogs pr-3"></i>
       Account Settings
     <% end %>
   </li>
