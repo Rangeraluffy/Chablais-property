@@ -1,5 +1,6 @@
 class AdminController < ApplicationController
   before_action :can_access?
+  before_action :authenticate_account!, only: [:new, :create, :destroy]
 
   def accounts
     @accounts = Account.where(admin: false)

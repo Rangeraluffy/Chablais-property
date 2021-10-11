@@ -2,8 +2,20 @@
 <%= render "devise/shared/error_messages", resource: resource %>
 
 <div class="container">
-  <h2>Edit
-    <%= resource_name.to_s.humanize %></h2>
+  <!-- ======= Intro About ======= -->
+  <section class="intro-single">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-8">
+          <div class="title-single-box">
+            <h1 class="title-single">Edit  my Account</h1>
+              <h3 class="sinse-title"">Change the field to update your account</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Intro About -->
   <div class="form-group">
     <%= f.label :first_name %><br/>
     <%= f.text_field :first_name, class: "form-control" %>
@@ -42,9 +54,8 @@
   <div class="form-group">
     <%= f.label :password %>
     <i>(leave blank if you don't want to change it)</i><br/>
-    <%= f.password_field :password, autocomplete: "new-password" %>
+    <%= f.password_field :password, autocomplete: "new-password", class: "form-control"  %>
     <% if @minimum_password_length %>
-      <br/>
       <em><%= @minimum_password_length %>
         characters minimum</em>
     <% end %>
@@ -52,13 +63,13 @@
 
   <div class="form-group">
     <%= f.label :password_confirmation %><br/>
-    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+    <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control"  %>
   </div>
 
   <div class="form-group">
     <%= f.label :current_password %>
     <i>(we need your current password to confirm your changes)</i><br/>
-    <%= f.password_field :current_password, autocomplete: "current-password" %>
+    <%= f.password_field :current_password, autocomplete: "current-password", class: "form-control"  %>
   </div>
 
   <div class="form-group">

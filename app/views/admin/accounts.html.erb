@@ -1,20 +1,41 @@
-<h1>Account</h1>
-
-<% @accounts.each do |account| %>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-3">
-      <%= account.full_name %>
-    </div>
-    <div class="col-sm-3">
-      <%= account.email %>
-    </div>
-    <div class="col-sm-3">
-      <%= account.created_at.strftime("%d %m %Y") %>
-    </div>
-    <div class="col-sm-3">
-      <%= link_to "View profile", profile_path(account.id) %>
+<!-- ======= Intro About ======= -->
+<section class="intro-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-8">
+        <div class="title-single-box">
+          <h1 class="title-single">Accounts</h1>
+            <h3 class="sinse-title"">List of all accounts </h3>
+        </div>
+      </div>
     </div>
   </div>
+</section>
+<!-- End Intro About -->
+
+<div class="tbl-header">
+  <table cellpadding="0" cellspacing="0" border="0">
+    <thead>
+      <tr>
+        <th class="th-users">User</th>
+        <th class="th-users">Email</th>
+        <th class="th-users">Telephone</th>
+      </tr>
+    </thead>
+  </table>
 </div>
-<% end %>
+
+<div class="tbl-content mb-5">
+   <table cellpadding="0" cellspacing="0" border="0">
+     <tbody>
+       <% @accounts.each do |account| %>
+         <tr>
+           <td><%= account.full_name %></td>
+           <td><%= account.email %></td>
+           <td><%= account.created_at.strftime("%d %m %Y") %></td>
+           <td><%= link_to "View profile", profile_path(account.id) %></td>
+         </tr>
+       <% end %>
+     </tbody>
+    </table>
+</div>
