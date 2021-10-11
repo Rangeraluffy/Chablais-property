@@ -8,7 +8,120 @@
           <span class="color-text-a">If you want to contact us</span>
         </div>
       </div>
+      <div class="col-md-12 col-lg-4">
+        <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+            <%= link_to image_tag("logo_2.png", class: "logo_signIn", alt: "logo_Peillex_Property")%>
+        </nav>
+      </div>
     </div>
   </div>
 </section>
 <!-- End Intro Contact -->
+
+<!-- ======= Contact Single ======= -->
+<section class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 section-t2">
+        <div class="row">
+          <div class="col-md-7">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" required>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="form-group">
+                    <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                  <div class="form-group">
+                    <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject" required>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea name="message" class="form-control" name="message" cols="45" rows="8" placeholder="Message" required></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12 text-center pb-5">
+                  <button type="submit" class="btn btn-a">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5 section-md-t3">
+            <div class="icon-box section-b2">
+              <div class="icon-box-icon">
+                <i class="icon-left-submit far fa-envelope"></i>
+              </div>
+              <div class="icon-box-content table-cell">
+                <div class="icon-box-title">
+                  <h4 class="icon-title">Say Hello</h4>
+                </div>
+                <div class="icon-box-content">
+                  <p class="mb-1">Email :
+                    <span class="color-a">peillex-property@peillex.com</span>
+                  </p>
+                  <p class="mb-1">Phone :
+                    <span class="color-a">04.50.00.00.00</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="icon-box section-b2">
+              <div class="icon-box-icon">
+                <i class="icon-left-submit fas fa-map-pin"></i>
+              </div>
+              <div class="icon-box-content table-cell">
+                <div class="icon-box-title">
+                  <h4 class="icon-title">Find us in</h4>
+                </div>
+                <div class="icon-box-content">
+                  <p class="mb-1">
+                    14 Avenue du Général de Gaule
+                    <br> 74200 Thonon-les-bains
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="icon-box">
+              <div class="icon-box-icon">
+                <i class="icon-left-submit fas fa-share-alt"></i>
+              </div>
+              <div class="icon-box-content table-cell">
+                <div class="icon-box-title">
+                  <h4 class="icon-title">Social networks</h4>
+                </div>
+                <div class="icon-box-content">
+                  <div class="socials-footer">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Contact Single-->
