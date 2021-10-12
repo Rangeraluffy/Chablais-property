@@ -3,6 +3,10 @@ class ApplicationController < ActionController::Base
 
   protected
 
+  def default_url_options
+    { locale: I18n.locale }
+  end
+
   def configure_permitted_parameters
     @show_sidebar = true if account_signed_in?
     devise_parameter_sanitizer.permit(:account_update, keys: [:first_name, :last_name, :telephone, :url, :details, :image, :image_cache, :company])
