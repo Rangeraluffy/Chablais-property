@@ -1,14 +1,48 @@
-<main role="main">
-  <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-4"><%= @post.title %></h1>
-      <p class="text-muted pl-2"><em>Posted <%= time_ago_in_words @post.created_at %></em></p>
+<section class="intro-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-8">
+        <div class="title-single-box">
+          <h1><%= @post.title %></h1>
+            <h3 class="sinse-title""><em>Posted <%= time_ago_in_words @post.created_at %></em></h3>
+        </div>
+      </div>
     </div>
   </div>
-</main>
-<div class="container">
-  <%= image_tag @post.image.thumb.url, class: "" if @post.image.present? %>
-    <%= simple_format @post.body %>
+</section>
+<!-- End Intro About -->
 
-    <p><%= link_to "View latest blog posts", blog_path %></p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="news-img-box">
+        <%= image_tag @post.image.thumb.url, class: "img-fluid" if @post.image.present? %>
+      </div>
+    </div>
+    <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+      <div class="post-information">
+        <ul clas="list-inline text-center color-a">
+          <li class="list-inline-item mr-2"><strong>Description :</strong><%= @post.url %></li>
+          <li class="list-inline-item mr-2"><strong>Test :</strong></li>
+          <li class="list-inline-item "><strong>Posted :</strong><%= time_ago_in_words @post.created_at %></li>
+        </ul>
+      </div>
+      <div class="post-content color-text-a">
+        <p class="post-intro">
+          <%= simple_format @post.body %>
+        </p>
+        <p>
+        Proin eget tortor risus. Donec sollicitudin molestie malesuada. Cras ultricies lsed magna dictum
+        porta. Pellentesque
+        in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementusit amet
+        dui. Lorem ipsum dolor sit amet.
+        </p>
+        <blockquote class="blockquote mb-4">
+          <p class="mb-4">
+            <%= link_to "View latest blog posts", blog_path, class: "post-content color-text-a" %>
+          </p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
 </div>
