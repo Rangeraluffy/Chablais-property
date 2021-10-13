@@ -50,47 +50,50 @@ For this website there are several interactive elements.
 
  * **Log In** : Allows the administrator to log In, to create accounts for the agents who work in the company and to manage the site, also this one will have access to the creation of account.
 
-    1. **Administrator Log In** :  Adds to the navigation bar after the administrator get log In, the log Out and a new possibility to create an account for a user.
+    **1. Administrator Log In** :  Adds to the navigation bar after the administrator get log In, the log Out and a new possibility to create an account for a user.
 
 * **Dashboard Admin** : The tab appears in the navigation bar once logged in, it sends to a dashboard page which has a navigation bar on the left side. The navigation bar on the left has two main parts:
 
     **1st part** : Linked to the website :
-        * **Accounts** :  Link has a page that allows you to see all the accounts created and manage it.
+        **1. Accounts** :  Link has a page that allows you to see all the accounts created and manage it.
 
-        * **Blogs posts** : Link has a page that allows you to see all the posts  created (show, edit, destroy) and to create new posts by pressing the button.
+        **2. Blogs posts** : Link has a page that allows you to see all the posts  created (show, edit, destroy) and to create new posts by pressing the button.
           1. To create a new post, just fill in the defined fields and activate the post for it to appear.
             2. Fields to fill in (title, url, summary, body, image, active).
 
-        * **Property** : Link has a page which allows to see all property created (show, edit, destroy) and to create property pressing the button.
+        **3. Property** : Link has a page which allows to see all property created (show, edit, destroy) and to create property pressing the button.
           1. To create a property, just fill the fields.
               2. Fields to be filled (Name, address, price, rooms, bathrooms, bedrooms, m², garages, description, for sale, available, photo).
 
     **2nd part** : Linked to his account :
-      * **My profile** : Link has a page that allows you to see the account with contact details, name, email.
+      **1. My profile** : Link has a page that allows you to see the account with contact details, name, email.
 
-      * **Edit account** : Update the informations related to the account (name, first name, email, telephone, details, password, password confirmation, image).
+      **2. Edit account** : Update the informations related to the account (name, first name, email, telephone, details, password, password confirmation, image).
 
 * **Dashboard Users (Real Estate Agent)** : The tab appears in the navigation bar once logged in, it sends to a dashboard page which has a navigation bar on the left side. The navigation bar on the left has two main parts :
 
     **1st part** : Linked to the website :
 
-        * **Property** : Link has a page which allows to see all property created (show, edit, destroy) and to create property pressing the button.
+        1 **Property** : Link has a page which allows to see all property created (show, edit, destroy) and to create property pressing the button.
           1. To create a property, just fill the fields.
               2. Fields to be filled (Name, address, price, rooms, bathrooms, bedrooms, m², garages, description, for sale, available, photo).
 
     **2nd part** : Linked to his account :
 
-      * **My profile** : Link has a page that allows you to see the account with contact details, name, email.
+      **1. My profile** : Link has a page that allows you to see the account with contact details, name, email.
 
-      * **Edit account** : Update the informations related to the account (name, first name, email, telephone, details, password, password confirmation, image).
+      **2. Edit account** : Update the informations related to the account (name, first name, email, telephone, details, password, password confirmation, image).
 
 ### 2. Home page :
 
-This will have several sections:
+This will have several sections :
 
   **1st section** : The latest properties that were created by agents.
+
   **2nd section** : Section information on Moynat Peillex Property but mainly on the market in Chablais.
+
   **3rd section** : A summary of all the teams members with their contact details.
+
   **4th section** : The latest news published on Blogs.
 
 ### 3. Footer :
