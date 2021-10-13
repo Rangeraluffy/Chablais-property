@@ -131,6 +131,20 @@ The footer is divided into 4 parts :
 Include a list of all third party services that you envisage using in your project.  For each one, indicate what they will be used for.  These include:
 
 * Ruby gems or JavaScript libraries outside of those bundled with Ruby on Rails by default.
+  1. Gem **'devise'** Devise is a flexible authentication solution for rails:
+    * Is a complete MVC solution based on Rails engines.
+    * Allows you to have multiple models signed in at the the time.
+  2. Gem **'sass'**  Sass adds a set of features to CSS that help organize stylesheets in a more maintainable way.
+  3. Gem **'figaro'** Allows me to strengthen the security of my application by hiding tokens, passwords and other API.
+  4. Gem **'mini_magick'** Use minimagick the ruby processes memory remains small that's more easy for me to stock and resize image upload.
+  5. Gem **'Carrierwave'** Active the download images in my application Rails.
+  6. Gem **'fog'** Cloud services library to use AWS3.
+  7. Gem **'Rails 12factor'** Rails 12factor rewrites some parameters of rails in order to facilitate scalability and regular updating of my application.
+  8. Gem **'webpacker'** Webpker makes it easy to use JavaScript pre-processor and bundler to manage application-like JavaScript in Rails.
 * CSS frameworks
+  **Boostrap** Will more easily to design my website with all section and container.
 * Third party APIs
-* Deployment services, such as Heroku
+  **Google maap** To locate all property create with address.
+  **Amazon Web services** Stocking all images uploading by users in one bucket.
+* Deployment services
+  **Heroku**
