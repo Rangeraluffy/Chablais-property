@@ -39,52 +39,7 @@
               </div>
             </div>
             <iframe class="map-show-property" width="480" height="240" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22037.378083050367!2d6.443705056292688!3d46.33620063721233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c3e1f0e8c4b59%3A0xd44d2bcefe6419bc!2s74200%20Allinges!5e0!3m2!1sfr!2sfr!4v1633361806900!5m2!1sfr!2sfr=<%= @property.address.to_param %>" allowfullscreen></iframe>
-            <div class="property-summary">
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="title-box-d section-t4">
-                    <h3 class="title-d">Quick Summary</h3>
-                  </div>
-                </div>
-              </div>
-              <div class="summary-list">
-                <ul class="list">
-                  <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Name :</strong>
-                    <span><%= @property.name %></span>
-                  </li>
-                  <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Address :</strong>
-                    <span><%= @property.address %></span>
-                  </li>
-                  <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Price :</strong>
-                    <span><%= @property.price > 0 ? number_to_currency(@property.price) : "For Sale" %></span>
-                  </li>
-                  <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Rooms :</strong>
-                    <span><%= @property.rooms %></span>
-                  </li>
-                  <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Bathrooms :</strong>
-                    <span><%= @property.bathrooms %></span>
-                  </li>
-                  <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Bedrooms :</strong>
-                    <span><%= @property.bedrooms %></span>
-                  </li>
-                  <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Area :</strong>
-                    <span><%= @property.area %>m²</span>
-                  </li>
-                  <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Garages :</strong>
-                    <span><%= @property.garages %></span>
-                  </li>
-                </ul>
-                <%= link_to 'Edit', edit_property_path(@property), class: "btn btn-lg btn-success" %>
-              </div>
-            </div>
+            <%= link_to 'Edit', edit_property_path(@property), class: "btn btn-lg btn-success mt-4" %>
           </div>
           <div class="col-md-7 col-lg-7 section-md-t3">
             <div class="row">
@@ -99,7 +54,6 @@
                   <div id="prop-details" class="mb-5">
                     <%= simple_format @property.details %>
                   </div>
-
                   <button id="toggleDetails" type="button" name="button" class="btn btn-outline-info">Show more</button>
               </div>
               <div class="row section-t3">
