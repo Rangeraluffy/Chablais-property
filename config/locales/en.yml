@@ -1,33 +1,30 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  # Agencies Thonon
+  hoursThonon: 'Monday to Friday : 8.30am -12.00am / 14.00-18.30pm Saturday : 8.30-12.00am'
+  discoverThonon: 'Discover our agency on Thonon'
+  discoverTextThonon1: 'The Thonon Agency is a real estate agency specializing in prestigious real estate, mainly located in the Lemanique sector but capable of reaching further afield as opportunities arise.'
+  discoverTextThonon2: 'A specialist in high-end properties, AC PROPERTY represents the “Luxury” branch of the PEILLEX IMMOBILIER group, present in the sector since 1861, and offering Transaction (purchase / sale), Rental / Rental Management and Promotion / Allotment services.'
+  discoverTextThonon3: 'You are a buyer or looking for a rental, discover our choice of properties and land available on our website. The employees of the AC PROPERTY Agency know how to respond professionally to the discretion desired by certain clients by working their property "Off-Market", and also offer you a "property hunter" service to find you the property of your dreams ...'
+  # Agencies Thonon Team section
+  teamThonon: 'Meet our team on Thonon'
+  teamTextThonon: 'Our team present on Thonon and ready to welcome you'
+
+  # Agencies Sciez
+  hoursSciez: 'Monday to Friday : 8.30am -12.00am / 14.00-18.30pm Saturday : 8.30-12.00am'
+  discoverSciez: 'Discover our agency'
+  discoverTextSciez1: 'The AC PROPERTY Agency is a real estate agency specializing in prestigious real estate, mainly located in the Lemanique sector but capable of reaching further afield as opportunities arise.'
+  discoverTextSciez2: 'A specialist in high-end properties, AC PROPERTY represents the “Luxury” branch of the PEILLEX IMMOBILIER group, present in the sector since 1861, and offering Transaction (purchase / sale), Rental / Rental Management and Promotion / Allotment services.'
+  discoverTextSciez3: 'You are a buyer or looking for a rental, discover our choice of properties and land available on our website. The employees of the AC PROPERTY Agency know how to respond professionally to the discretion desired by certain clients by working their property "Off-Market", and also offer you a "property hunter" service to find you the property of your dreams ...'
+  # Agencies Sciez Team section
+  teamSciez: 'Meet our team on Sciez'
+  teamTextSciez: 'Our team present on Thonon and ready to welcome you'
+
+  # Agencies Douvaine
+  hoursDouvaine: 'Monday to Friday : 8.30am -12.00am / 14.00-18.30pm Saturday : 8.30-12.00am'
+  discoverDouvaine: 'Discover our agency on Douvaine'
+  discoverTextDouvaine1: 'The douvaine Agency is a real estate agency specializing in prestigious real estate, mainly located in the Lemanique sector but capable of reaching further afield as opportunities arise.'
+  discoverTextDouvaine2: 'A specialist in high-end properties, AC PROPERTY represents the “Luxury” branch of the PEILLEX IMMOBILIER group, present in the sector since 1861, and offering Transaction (purchase / sale), Rental / Rental Management and Promotion / Allotment services.'
+  discoverTextDouvaine3: 'You are a buyer or looking for a rental, discover our choice of properties and land available on our website. The employees of the AC PROPERTY Agency know how to respond professionally to the discretion desired by certain clients by working their property "Off-Market", and also offer you a "property hunter" service to find you the property of your dreams ...'
+  # Agencies Douvaine Team section
+  teamDouvaine: 'Meet our team on Douvaine'
+  teamTextDouvaine: 'Our team present on Douvaine and ready to welcome you'
