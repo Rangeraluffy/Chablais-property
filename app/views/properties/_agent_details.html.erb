@@ -3,9 +3,11 @@
     <%= profile_picture agent %>
   </div>
   <h3 class="h4 m-0"><%= agent.full_name %></h3>
-  <p><%= agent.company %></p>
+  <h4><%= agent.company %></h4>
 
   <button class="btn btn-block btn-info text-uppercase mb-4" id="show-tel" data-telephone="<%= agent.telephone %>"><i class="fas fa-phone mr-2"></i><span>Call</span></button>
-  <button class="btn btn-success text-uppercase" id="show-email"><i class="far fa-envelope"></i>email</button>
-  <%= link_to "Profile", profile_path(agent.id), class: "btn btn-secondary text-uppercase" %>
+    <%= link_to "Profile", profile_path(agent.id), class: "btn btn-secondary text-uppercase" %>
+  <button class="btn btn-success text-uppercase" data-toggle="modal" data-target="#contact-modal">Email</button>
+
+
 </div>
