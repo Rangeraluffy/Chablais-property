@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'filter/properties'
   root to: 'public#main'
   
   scope '/:locale' do
