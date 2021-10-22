@@ -1,26 +1,28 @@
 Rails.application.routes.draw do
-  get 'filter/properties'
   root to: 'public#main'
-  
   scope '/:locale' do
-    get 'contact/contact'
-    get 'agencies/thonon'
-    get 'agencies/douvaine'
-    get 'agencies/sciez'
-    get 'information/about'
-    devise_for :accounts
-    resources :posts
-    resources :properties
+    get 'filter/properties'
 
-    get "/blog" => "posts#latest", as: :blog
+    scope '/:locale' do
+      get 'contact/contact'
+      get 'agencies/thonon'
+      get 'agencies/douvaine'
+      get 'agencies/sciez'
+      get 'information/about'
+      devise_for :accounts
+      resources :posts
+      resources :properties
 
-    #admin routes
-    get "/accounts" => 'admin#accounts', as: :accounts
+      get "/blog" => "posts#latest", as: :blog
 
-    get "/dashboard" => 'dashboard#index', as: :dashboard
-    get "/profile/:id" => 'dashboard#profile', as: :profile
+      #admin routes
+      get "/accounts" => 'admin#accounts', as: :accounts
 
-    root to: 'public#main'
-    # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+      get "/dashboard" => 'dashboard#index', as: :dashboard
+      get "/profile/:id" => 'dashboard#profile', as: :profile
+
+      root to: 'public#main'
+      # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  end
   end
 end

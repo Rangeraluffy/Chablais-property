@@ -1,1 +1,30 @@
 it:
+  # Agencies Thonon
+  hoursThonon: 'Dal lunedì al venerdì: 8.30-12.00 / 14.00-18.30 Sabato: 8.30-12.00'
+  discoverThonon: 'Scopri la nostra agenzia su Thonon'
+  discoverTextThonon1: "L'Agenzia Thonon è un agenzia immobiliare specializzata in immobili di prestigio, situata principalmente nel settore lemanico ma in grado di raggiungere più lontano man mano che si presentano opportunità"
+  discoverTextThonon2: "Specialista in immobili di alta fascia, AC PROPERTY rappresenta il ramo 'Luxury' del gruppo PEILLEX IMMOBILIER, presente nel settore dal 1861, e che offre servizi di Transaction (acquisto/vendita), Rental/Rental Management e Promotion/Allotment."
+  discoverTextThonon3: "Sei un acquirente o cerchi un affitto, scopri la nostra scelta di proprietà e terreni disponibili sul nostro sito web. I dipendenti dell'Agenzia AC PROPERTY sanno come rispondere professionalmente alla discrezione desiderata da alcuni clienti lavorando la loro proprietà 'Off-Market', e offrono anche un servizio di 'cacciatore di proprietà' per trovarti la proprietà dei tuoi sogni..."
+  # Agencies Thonon Team section
+  teamThonon: 'Incontra il nostro team su Thonon'
+  teamTextThonon: 'Il nostro team presente su Thonon e pronto ad accogliervi'
+
+  # Agencies Sciez
+  hoursSciez: 'Dal lunedì al venerdì: 8.30-12.00 / 14.00-18.30 Sabato: 8.30-12.00'
+  discoverSciez: 'Scopri la nostra agenzia su Domaine de Coudrée'
+  discoverTextSciez1: "L'Agenzia AC PROPERTY è un'agenzia immobiliare specializzata in immobili di prestigio, situata principalmente nel settore lemanico ma in grado di raggiungere più lontano man mano che si presentano opportunità."
+  discoverTextSciez2: "Specialista in immobili di alta fascia, AC PROPERTY rappresenta il ramo 'Luxury' del gruppo PEILLEX IMMOBILIER, presente nel settore dal 1861, e che offre servizi di Transaction (acquisto/vendita), Rental/Rental Management e Promotion/Allotment."
+  discoverTextSciez3: "Sei un acquirente o cerchi un affitto, scopri la nostra scelta di proprietà e terreni disponibili sul nostro sito web. I dipendenti dell'Agenzia AC PROPERTY sanno come rispondere professionalmente alla discrezione desiderata da alcuni clienti lavorando la loro proprietà 'Off-Market', e offrono anche un servizio di 'cacciatore di proprietà' per trovarti la proprietà dei tuoi sogni..."
+  # Agencies Sciez Team section
+  teamSciez: 'Incontra il nostro team su Domaine de Coudrée'
+  teamTextSciez: 'Il nostro team presente su Domaine de Coudrée e pronto ad accogliervi'
+
+  # Agencies Douvaine
+  hoursDouvaine: 'Dal lunedì al venerdì: 8.30-12.00 / 14.00-18.30 Sabato: 8.30-12.00'
+  discoverDouvaine: 'Scopri la nostra agenzia su Douvaine'
+  discoverTextDouvaine1: "L'Agenzia Douvaine è un agenzia immobiliare specializzata in immobili di prestigio, situata principalmente nel settore lemanico ma in grado di raggiungere più lontano man mano che si presentano opportunità"
+  discoverTextDouvaine2: "Specialista in immobili di alta fascia, AC PROPERTY rappresenta il ramo 'Luxury' del gruppo PEILLEX IMMOBILIER, presente nel settore dal 1861, e che offre servizi di Transaction (acquisto/vendita), Rental/Rental Management e Promotion/Allotment."
+  discoverTextDouvaine3: "Sei un acquirente o cerchi un affitto, scopri la nostra scelta di proprietà e terreni disponibili sul nostro sito web. I dipendenti dell'Agenzia AC PROPERTY sanno come rispondere professionalmente alla discrezione desiderata da alcuni clienti lavorando la loro proprietà 'Off-Market', e offrono anche un servizio di 'cacciatore di proprietà' per trovarti la proprietà dei tuoi sogni..."
+  # Agencies Douvaine Team section
+  teamDouvaine: 'Incontra il nostro team su Douvaine'
+  teamTextDouvaine: 'Il nostro team presente su Douvaine e pronto ad accogliervi'

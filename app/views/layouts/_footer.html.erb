@@ -29,6 +29,9 @@
       </div>
       <div class="footer-col text-center">
         <h4 class="text-brand">Languages</h4>
+        <% I18n.available_locales.each do |locale| %>
+          <%= link_to locale, url_for(locale: locale) %>
+        <% end %>
         <ul class="footer-point">
           <li class="item-list-footer">
             <a href="#">english</a>

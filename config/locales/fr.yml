@@ -1,2 +1,30 @@
 fr:
-  hours: 'Du lundi au vendredi : 8h30-12h00 / 14h00-18h30 Samedi : 8h30-12h00'
+  # Agencies Thonon
+  hoursThonon: "Du lundi au vendredi : 8h30-12h00 / 14h00-18h30 Samedi : 8h30-12h00"
+  discoverThonon: "Découvrez notre agence de Thonon"
+  discoverTextThonon1: "Agence de Thonon est une agence immobilière spécialisée dans l'immobilier du centre du Chablais, principalement située dans le secteur lémanique mais capable d'aller plus loin au fur et à mesure que des opportunités se présentent."
+  discoverTextThonon2: "Spécialiste de l'immobilier haut de gamme, AC PROPERTY représente la branche « Luxe » du groupe PEILLEX IMMOBILIER, présent dans le secteur depuis 1861, et proposant des services transaction (achat/vente), location/location et promotion/allotissement."
+  discoverTextThonon3: "Vous êtes acheteur ou à la recherche d'une location, découvrez notre choix de biens et terrains disponibles sur notre site. Les employés de l'Agence AC PROPERTY savent répondre professionnellement à la discrétion souhaitée par certains clients en travaillant leur propriété « Off-Market », et vous offrent également un service de « chasseur de propriété » pour vous trouver la propriété de vos rêves..."
+  # Agencies Thonon Team section
+  teamThonon: 'Découvre notre équipe sur Thonon'
+  teamTextThonon: 'Notre équipe présente sur Thonon et prête à vous accueillir'
+
+  # Agencies Sciez
+  hoursSciez: "Du lundi au vendredi : 8h30-12h00 / 14h00-18h30 Samedi : 8h30-12h00"
+  discoverSciez: "Découvrez notre agence de Sciez"
+  discoverTextSciez1: "Agence de Sciez est une agence immobilière spécialisée dans l'immobilier du centre du Chablais, principalement située dans le secteur lémanique mais capable d'aller plus loin au fur et à mesure que des opportunités se présentent."
+  discoverTextSciez2: "Spécialiste de l'immobilier haut de gamme, AC PROPERTY représente la branche « Luxe » du groupe PEILLEX IMMOBILIER, présent dans le secteur depuis 1861, et proposant des services transaction (achat/vente), location/location et promotion/allotissement."
+  discoverTextSciez3: "Vous êtes acheteur ou à la recherche d'une location, découvrez notre choix de biens et terrains disponibles sur notre site. Les employés de l'Agence AC PROPERTY savent répondre professionnellement à la discrétion souhaitée par certains clients en travaillant leur propriété « Off-Market », et vous offrent également un service de « chasseur de propriété » pour vous trouver la propriété de vos rêves..."
+  # Agencies Sciez Team section
+  teamSciez: 'Découvre notre équipe sur Sciez'
+  teamTextSciez: 'Notre équipe présente sur Thonon et prête à vous accueillir'
+
+  # Agencies Douvaine
+  hoursDouvaine: "Du lundi au vendredi : 8h30-12h00 / 14h00-18h30 Samedi : 8h30-12h00"
+  discoverDouvaine: "Découvrez notre agence de Douvaine"
+  discoverTextDouvaine1: "Agence de Douvaine est une agence immobilière spécialisée dans l'immobilier du centre du Chablais, principalement située dans le secteur lémanique mais capable d'aller plus loin au fur et à mesure que des opportunités se présentent."
+  discoverTextDouvaine2: "Spécialiste de l'immobilier haut de gamme, AC PROPERTY représente la branche « Luxe » du groupe PEILLEX IMMOBILIER, présent dans le secteur depuis 1861, et proposant des services transaction (achat/vente), location/location et promotion/allotissement."
+  discoverTextDouvaine3: "Vous êtes acheteur ou à la recherche d'une location, découvrez notre choix de biens et terrains disponibles sur notre site. Les employés de l'Agence AC PROPERTY savent répondre professionnellement à la discrétion souhaitée par certains clients en travaillant leur propriété « Off-Market », et vous offrent également un service de « chasseur de propriété » pour vous trouver la propriété de vos rêves..."
+  # Agencies Douvaine Team section
+  teamDouvaine: 'Découvre notre équipe sur Douvaine'
+  teamTextDouvaine: 'Notre équipe présente sur Thonon et prête à vous accueillir'
