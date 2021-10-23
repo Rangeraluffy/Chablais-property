@@ -1,21 +1,27 @@
 <% posts.each do |post| %>
-    <div class="col-sm-4">
-      <div class="card-box-a card-shadow">
-          <div class="property-thumb" style="background-image: url(<%= post_thumbnail_url (post)%>)">
-            <%= link_to "", post_path(post) %>
-          </div>
-
-
-        <div class="card-overlay">
-          <div class="card-overlay-a-content">
-            <div class="card-header-a">
-              <h2 class="card-title-a">
-                <h2 class="title-property"><%= link_to post.title, post_path(post) %></h2>
-                <p><%= post.summary %></p>
-              </h2>
-            </div>
-          </div>
-        </div>
+<div class="col-md-3 mb-3">
+  <div class="item-box-blog">
+    <div class="item-box-blog-image">
+      <!--Date-->
+      <div class="item-box-blog-date bg-blue-ui white">
+        <span class="mon">Augu 23</span>
       </div>
+      <!--Image-->
+      <figure>
+        <div class="blog-thumb" style="background-image: url(<%= post_thumbnail_url (post)%>)">
+        </div>
+      </figure>
     </div>
+    <div class="item-box-blog-body">
+      <!--Heading-->
+      <div class="item-box-blog-heading">
+          <h1><%= link_to post.title, post_path(post) %></h1>
+      </div>
+      <div class="mt">
+        <%= link_to "Read More", post_path(post),class: "btn bg-blue-ui white read" %>
+      </div>
+      <!--Read More Button-->
+    </div>
+  </div>
+</div>
 <% end %>
