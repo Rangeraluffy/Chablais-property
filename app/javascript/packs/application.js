@@ -8,8 +8,7 @@
 // layout file, like app/views/layouts/application.html.erb
 //
 
-const jq = require("jquery")
-
-global.$ = jq;
+require("jquery")
 
 require('./properties')
+require('./carousel')
