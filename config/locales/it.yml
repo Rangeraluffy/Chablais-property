@@ -2,7 +2,7 @@ it:
   # Home page
   latestProperties: "Ultime proprietà"
   latestPropertiesSub: "Ultimi immobili sul mercato"
-  
+
   # Market in Chablais
   marketChablaisTitle: "Il mercato immobiliare dello Chablais"
   marketChablaisOne: "Peillex Immobilier, ti offre molti immobili in vendita. Situato in una regione ricca tra lago e montagna, offriamo diversi tipi di proprietà: case in vendita a Thonon, appartamenti con vista sul Lago di Ginevra, case contemporanee nel cuore del Golf, chalet di lusso in vendita ai piedi delle piste o dagli appartamenti in centro città. Peillex, con i suoi 60 anni di esperienza nel settore immobiliare, ti aiuta a trovare la proprietà che soddisferà le tue aspettative."
@@ -47,3 +47,24 @@ it:
   # Agencies Douvaine Team section
   teamDouvaine: 'Incontra il nostro team su Douvaine'
   teamTextDouvaine: 'Il nostro team presente su Douvaine e pronto ad accogliervi'
+
+  # Contact Us
+  Contact: "Contattaci"
+  ContactQuestion: "Se vuoi contattarci"
+  YourName: "Il tuo nome"
+  YourEmai: "La tua email"
+  Subject: "Soggetto"
+  Hello: "Di Ciao"
+  FindUs: "Ci trovi in"
+  SocialNetworks: "Social networks"
+  SendMessage: "Invia messaggio"
+
+  # Footer
+  company: "Società"
+  legalPrivacy: "Legale e Privacy"
+  agencies: "Le nostre agenzie"
+  languages: "Le lingue"
+  languagesEn: "Inglese"
+  languagesFr: "Francese"
+  languagesIt: "Italiano"
+  follow: "Seguici"

@@ -47,3 +47,24 @@ fr:
   # Agencies Douvaine Team section
   teamDouvaine: 'Découvre notre équipe sur Douvaine'
   teamTextDouvaine: 'Notre équipe présente sur Douvaine et prête à vous accueillir'
+
+  # Contact Us
+  Contact: "Contactez nous"
+  ContactQuestion: "Si vous voulez nous contacter"
+  YourName: "Votre nom"
+  YourEmai: "Votre email"
+  Subject: "Objet"
+  Hello: "Dites nous bonjour"
+  FindUs: "Trouvez nous"
+  SocialNetworks: "Réseau sociaux"
+  SendMessage: "Envoyer un message"
+
+  # Footer
+  company: "Société"
+  legalPrivacy: "Mentions légales et confidentialité"
+  agencies: "Nos agences"
+  languages: "Langues"
+  languagesEn: "Anglais"
+  languagesFr: "Francais"
+  languagesIt: "Italien"
+  follow: "Suivez nous"

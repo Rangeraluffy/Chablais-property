@@ -3,10 +3,10 @@
   <div class="container">
     <div class="row-footer">
       <div class="footer-col text-center">
-        <h4 class="text-brand">Company</h4>
+        <h4 class="text-brand"><%= translate('company') %></h4>
         <ul class="footer-point">
           <li class="item-list-footer">
-            <a href="#">Legal and privacy</a>
+            <a href="#"><%= translate('legalPrivacy') %></a>
           </li>
           <li class="item-list-footer">
             <a href="#">&copy; Peillex Property</a>
@@ -14,7 +14,7 @@
         </ul>
       </div>
       <div class="footer-col text-center">
-        <h4 class="text-brand">Our agencies</h4>
+        <h4 class="text-brand"><%= translate('agencies') %></h4>
         <ul class="footer-point">
           <li class="item-list-footer">
             <%= link_to "Peillex Property - Thonon", agencies_thonon_path%>
@@ -28,24 +28,24 @@
         </ul>
       </div>
       <div class="footer-col text-center">
-        <h4 class="text-brand">Languages</h4>
+        <h4 class="text-brand"><%= translate('languages') %></h4>
         <% I18n.available_locales.each do |locale| %>
           <%= link_to locale, url_for(locale: locale) %>
         <% end %>
         <ul class="footer-point">
           <li class="item-list-footer">
-            <a href="#">english</a>
+            <a href="#"><%= translate('languagesEn') %></a>
           </li>
           <li class="item-list-footer">
-            <a href="#">french</a>
+            <a href="#"><%= translate('languagesFr') %></a>
           </li>
           <li class="item-list-footer">
-            <a href="#">italian</a>
+            <a href="#"><%= translate('languagesIt') %></a>
           </li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4 class="text-brand">Follow us</h4>
+        <h4 class="text-brand"><%= translate('follow') %></h4>
         <div class="social-links">
           <a href="#">
             <i class="fab fa-facebook-f"></i>
