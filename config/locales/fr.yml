@@ -1,4 +1,23 @@
 fr:
+  # Home page
+  latestProperties: "Dernières propriétés"
+  latestPropertiesSub: "Dernières propriétés sur le marché"
+
+  # Market in Chablais
+  marketChablaisTitle: "Le marché immobilier du Chablais"
+  marketChablaisOne: "Peillex Immobilier, vous propose de nombreuses propriétés à vendre. Situés dans une région riche entre lac et montagne, nous vous proposons plusieurs types de biens : des maisons à vendre à Thonon, des appartements avec vue sur le lac Léman, des maisons contemporaines au coeur du Golf, des chalets de luxe à vendre au pied des pistes pistes ou appartements en centre-ville. Peillex, fort de ses 60 ans d'expérience dans l'immobilier, vous aide à trouver le bien qui correspondra à vos attentes."
+  marketChablaisTwo: "Toutes ces propriétés se trouvent dans plusieurs communes du Chablais dont les trois plus connues, Evian-les-Bains, Thonon-les-Bains et Veigy-foncenex. Ces trois communes sont entourées de communes aussi agréables à vivre que Publier, Sciez, Anthy-sur-Léman, Chens-sur-Léman ou encore Lugrin.
+  Les points communs qui les unissent sont l'accès rapide au lac Léman, les stations de ski et leur proximité avec la Suisse. Vous habitez à proximité de grands pôles touristiques comme Genève ou Lausanne tout en conservant un cadre de vie calme et paisible."
+  marketChablaisThree: "Amoureux de la nature et du patrimoine historique, le Chablais offre un paysage unique, allant des montagnes du Haut Chablais où vous pourrez vous adonner aux plaisirs de la montagne, aux rives du lac Léman où les activités lacustres rythment la vie des habitants. Genève est également connue pour ses spas. Stations internationales à la Belle Époque, les stations d'Evian-les-Bains et de Thonon-les-Bains sont réputées pour soigner toutes sortes de fatigues."
+  marketChablaisFour: "Vous souhaitez trouver une maison à vendre à Thonon-les-Bains ou vendre un bien dans le Chablais ? Peillex, agence immobilière à Thonon, Douvaine et Sciez vous propose ses services et son expérience pour faciliter toute vente ou achat dans la région."
+
+  # Home page team
+  OurTeam: "Nos équipes"
+  OurTeamSub: "Tous les agents immobiliers chez Peillex property"
+  # Home page Blogs
+  latestBlogs: "Dernières publications"
+  latestBlogsSub: "Vous voulez rester informé sur le marché de l'immobilier ?"
+
   # Agencies Thonon
   hoursThonon: "Du lundi au vendredi : 8h30-12h00 / 14h00-18h30 Samedi : 8h30-12h00"
   discoverThonon: "Découvrez notre agence de Thonon"

@@ -46,7 +46,8 @@
     <%= form.check_box :active, class: "form-control" %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="form-group">
+    <%= form.submit "Create Post", class: "btn btn-lg btn-success" %>
+    <%= link_to 'Back', posts_path, class: "btn btn-lg btn-secondary " %>
   </div>
 <% end %>
