@@ -2,12 +2,48 @@
 <section class="intro-single">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 col-lg-8">
+      <div class="col-md-12 col-lg-6">
         <div class="title-single-box">
           <h1 class="title-single"><%= translate('latestProperties') %></h1>
           <h3 class="sinse-title""><%= translate('latestPropertiesSub') %></h3>
         </div>
       </div>
+        <div class="row">
+          <div class="col-md-4 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="Type">Type</label>
+              <select class="form-control form-select form-control-a" id="Type">
+                <option>All Type</option>
+                <option>Appartement</option>
+                <option>House</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-4 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="city">City</label>
+              <select class="form-control form-select form-control-a" id="city">
+                <option>All City</option>
+                <option>Thonon-les-bains</option>
+                <option>Allinges</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-4 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="price">Maximum Price</label>
+              <select class="form-control form-select form-control-a" id="price">
+                <option>Unlimite</option>
+                <option>$200,000</option>
+                <option>$500,000</option>
+                <option>$700,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-a">Search Property</button>
+          </div>
+        </div>
     </div>
   </div>
 </section>
