@@ -1,0 +1,35 @@
+/* =============================
+ * Ameneties for property
+ =============================== */
+
+.list-a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 2;
+    padding: 0;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.list-a li {
+    position: relative;
+    width: 33%;
+    float: left;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+// Description Properties
+
+#prop-details{
+  height: 150px;
+  overflow: hidden;
+
+  &.open {
+    height: auto;
+  }
+}
+
+.icons-amenities{
+  padding-right: 15px;
+}

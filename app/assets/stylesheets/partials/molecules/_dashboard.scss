@@ -1,3 +1,33 @@
+/* =============================
+ * LEFT SIDE DASHBOARD
+ =============================== */
+ .nav-bar-dashboard{
+   padding: 20px 30px;
+   text-align: center;
+ }
+
+.sidebar-sticky a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.sidebar-sticky span {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.settings-title{
+  font-size: 25px;
+}
+
+/* =============================
+ * TABLE DASHBOARD
+ =============================== */
+
 table{
   width:100%;
   table-layout: fixed;

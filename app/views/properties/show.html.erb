@@ -3,7 +3,7 @@
     <div class="col-sm-12 col-lg-8">
       <div class="title-single-box">
         <h1 class="title-single"><%= @property.name %></h1>
-        <h3 class="color-text-a sinse-title""><%= @property.address %></h3>
+        <h3 class="sinse-title""><%= @property.address %></h3>
       </div>
     </div>
     <div class="col-sm-3 mb-2">
@@ -25,14 +25,12 @@
       <div class="col-sm-12">
         <div class="summary-desciption row justify-content-between">
           <div class="col-md-5 col-lg-4">
-            <div class="property-price d-flex justify-content-center foo">
+            <div class="d-flex justify-content-center foo">
               <div class="card-header-c d-flex">
-                <div class="card-box-ico">
                   <div class="card-title-c align-self-center">
                     <h1 class="title-c"><%= @property.price > 0 ? number_to_currency(@property.price) : "For Sale" %></h1>
                     <p><%= link_to "Est. Price per Square metters #{ number_to_currency((@property.price / @property.area))}", "#", class: "price-metters text-center" %></p>
                   </div>
-                </div>
               </div>
             </div>
             <iframe class="map-show-property col-sm-12" width="480" height="240" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22037.378083050367!2d6.443705056292688!3d46.33620063721233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c3e1f0e8c4b59%3A0xd44d2bcefe6419bc!2s74200%20Allinges!5e0!3m2!1sfr!2sfr!4v1633361806900!5m2!1sfr!2sfr=<%= @property.address.to_param %>" allowfullscreen></iframe>
@@ -61,22 +59,22 @@
                     <h3 class="title-d">Amenities</h3>
                   </div>
                 </div>
-                <div class="amenities-list color-text-a">
+                <div class="color-text-a">
                   <ul class="list-a no-margin">
                     <li><strong>Rooms</strong><br>
-                      <span class="amenities-point"><i class="icons-amenities fas fa-home"></i><%= @property.rooms %></span>
+                      <span><i class="icons-amenities fas fa-home"></i><%= @property.rooms %></span>
                     </li>
                     <li><strong>Bathrooms</strong><br>
-                      <span class="amenities-point"><i class="icons-amenities fas fa-bath"></i><%= @property.bathrooms %></span>
+                      <span><i class="icons-amenities fas fa-bath"></i><%= @property.bathrooms %></span>
                     </li>
                     <li><strong>Bedrooms</strong><br>
-                      <span class="amenities-point"><i class="icons-amenities fas fa-bed"></i><%= @property.bedrooms %></span>
+                      <span><i class="icons-amenities fas fa-bed"></i><%= @property.bedrooms %></span>
                     </li>
                     <li><strong>Area</strong><br>
-                      <span class="amenities-point"><i class="icons-amenities far fa-square"></i><%= @property.area %></span>
+                      <span><i class="icons-amenities far fa-square"></i><%= @property.area %></span>
                     </li>
                     <li><strong>Garages</strong><br>
-                      <span class="amenities-point"><i class="icons-amenities fas fa-car"></i><%= @property.garages %></span>
+                      <span><i class="icons-amenities fas fa-car"></i><%= @property.garages %></span>
                     </li>
                   </ul>
                 </div>

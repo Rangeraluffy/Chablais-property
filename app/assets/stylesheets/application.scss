@@ -1,18 +1,4 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+ // Global
 
  @import "partials/base";
  @import "partials/global";
@@ -20,15 +6,24 @@
  @import "partials/variables";
 
  // Atoms
- @import "partials/atoms/title_agent";
- @import "partials/atoms/description-properties";
- @import "partials/atoms/color-text";
+ @import "partials/atoms/all_title";
+ @import "partials/atoms/button_submit";
+ @import "partials/atoms/home_banner";
+ @import "partials/atoms/paginate";
+ @import "partials/atoms/market_chablais_main";
 
  // Molecules
+ @import "partials/molecules/about_section";
+ @import "partials/molecules/ameneties_property";
+ @import "partials/molecules/card_overlay";
+ @import "partials/molecules/contact";
  @import "partials/molecules/dashboard";
- @import "partials/molecules/properties-agent";
- @import "partials/molecules/card-overlay";
- // @import "partials/molecules/card_property";
+ @import "partials/molecules/login";
+ @import "partials/molecules/our_team";
+ @import "partials/molecules/post_main";
+ @import "partials/molecules/show_post";
+ @import "partials/molecules/show_properties_agent";
+
  // Organisms
  @import "partials/organisms/header";
  @import "partials/organisms/footer";

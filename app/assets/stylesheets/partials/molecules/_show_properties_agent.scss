@@ -1,50 +1,13 @@
-// photo
+// photo properties
 
 .photo-overlay{
   height: 750px;
 }
 
-.property-main-photo
-{
-  max-height: 100%;
-  max-width: 100%;
-}
-
-.title-single-box {
-  border-left: 3px solid #21aeda;
-  padding: 15px;
-  margin-bottom: 10px;
-}
-.title-single{
-  font-size: 3.5rem;
-}
-
-.property-price{
-  margin: 0 auto;
-}
-
-.property-price .card-header-c {
-    padding: 0;
-}
-
-.card-box-ico {
-    padding: 1rem 3rem 1rem 2.5rem;
-    border: 5px solid #21aeda;
-}
-
-.align-self-center {
-    align-self: center!important;
-}
-
-.title-box-d {
-    padding-bottom: 1.8rem;
-    margin-bottom: 1rem;
-    position: relative;
-}
-
-.title-box-d .title-d {
-    font-weight: 600;
-    font-size: 2rem;
+// photo agents
+.img-circle{
+  border-radius: 50%;
+      width: 150px;
 }
 
 .summary-list {
@@ -88,17 +51,6 @@
 }
 // Property Description
 
-.title-box-d {
-    padding-bottom: 1.8rem;
-    margin-bottom: 1rem;
-    position: relative;
-}
-
-.title-box-d .title-d {
-    font-weight: 600;
-    font-size: 2rem;
-}
-
 .description{
   font-size: 1rem;
 }
@@ -133,21 +85,4 @@
     background-color: #21aeda;
     bottom: 20px;
     left: 0;
-}
-
-.list-a {
-    text-decoration: none;
-    display: inline-block;
-    line-height: 2;
-    padding: 0;
-    list-style: none;
-    font-size: 1.3rem;
-}
-
-.list-a li {
-    position: relative;
-    width: 33%;
-    float: left;
-    padding-left: 25px;
-    padding-right: 50px;
 }
