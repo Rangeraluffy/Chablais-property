@@ -4,5 +4,5 @@ class Post < ApplicationRecord
   scope :active, -> { where(active: true)}
   scope :latest, -> { order created_at: :desc }
 
-  paginates_per 3
+  paginates_per 4
 end

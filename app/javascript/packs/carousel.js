@@ -5,18 +5,18 @@ $(document).ready(function(){
 {      margin: 10,
       loop: true,
       autoplay:true,
-      autoplayTimeout: 3000,
+      autoplayTimeout: 4000,
       autoplayHoverPause: true,
       responsive: {
         0:{
           items: 1,
           nav: false
         },
-        600:{
+        800:{
           items: 2,
           nav: false
         },
-        1000:{
+        1500:{
           items: 3,
           nav: false
         }
