@@ -11,7 +11,11 @@ Rails.application.routes.draw do
       get 'information/about'
       devise_for :accounts
       resources :posts
-      resources :properties
+      resources :properties do
+        collection do
+          get :get_filterd
+        end
+      end
 
       get "/blog" => "posts#latest", as: :blog
 

@@ -61,6 +61,18 @@ class PropertiesController < ApplicationController
     end
   end
 
+  def get_filterd
+    filters = params[:properties]
+    @properties = Property.all
+    if filters.present?
+      @properties = @properties.where(name: filters['type']) if filters['type'] != 'All Type'
+      @properties = @properties.where(address: filters['city']) if filters['city'] != 'All City'
+      @properties = @properties.where("price <= ?", filters['price'].to_i) if filters['price'] != 'Unlimited'
+    end
+
+    render 'index'
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_property

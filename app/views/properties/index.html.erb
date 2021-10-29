@@ -9,42 +9,31 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4 mb-2">
-        <div class="form-group mt-3">
-          <label class="pb-2" for="Type">Type</label>
-          <select class="form-control form-select form-control-a" id="Type">
-            <option><%= translate('allType') %></option>
-            <option><%= translate('appartement') %></option>
-            <option><%= translate('house') %></option>
-          </select>
+    <%= form_tag "#{get_filterd_properties_path}", :method => :get do %>
+      <div class="row">
+        <div class="col-md-4 mb-2">
+          <div class="form-group mt-3">
+            <label class="pb-2" for="Type">Type</label>
+            <%= select("properties", 'type', ['All Type', 'Appartement', 'House'], {selected: 'All Type' }, class: "form-control form-select form-control-a") %>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="form-group mt-3">
+            <label class="pb-2" for="city">City</label>
+            <%= select("properties", 'city', ['All City', 'Thonon-les-bains', 'Allinges', 'Chens-sur-leman', 'Evian-les-bains', 'Sciez', 'Anthy-sur-leman', 'Massongy', 'Douvaine', 'Veigy-Foncenex'], {selected: 'All City'}, class: "form-control form-select form-control-a") %>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="form-group mt-3">
+            <label class="pb-2" for="price">Maximum Price</label>
+            <%= select("properties", 'price', [['Unlimited', 'Unlimited'], ['$200,000', '200000'], ['$500,000', '500000'], ['$700,000', '700000'], ['$900,000', '900000']], {selected: 'Unlimited'}, class: "form-control form-select form-control-a") %>
+          </div>
+        </div>
+        <div class="col-md-12 text-center">
+          <button type="submit" class="btn btn-a">Search Property</button>
         </div>
       </div>
-      <div class="col-md-4 mb-2">
-        <div class="form-group mt-3">
-          <label class="pb-2" for="city"><%= translate('city') %></label>
-          <select class="form-control form-select form-control-a" id="city">
-            <option><%= translate('allCity') %></option>
-            <option>Thonon-les-bains</option>
-            <option>Allinges</option>
-          </select>
-        </div>
-      </div>
-      <div class="col-md-4 mb-2">
-        <div class="form-group mt-3">
-          <label class="pb-2" for="price"><%= translate('maximumPrice') %></label>
-          <select class="form-control form-select form-control-a" id="price">
-            <option><%= translate('noPrice') %></option>
-            <option>$200,000</option>
-            <option>$500,000</option>
-            <option>$700,000</option>
-          </select>
-        </div>
-      </div>
-      <div class="col-md-12 text-center">
-        <button type="submit" class="btn btn-a"><%= translate('searchProperty') %></button>
-      </div>
-    </div>
+    <% end %>
   </div>
 </section>
 <!-- End Intro About -->
