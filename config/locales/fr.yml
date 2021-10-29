@@ -11,12 +11,61 @@ fr:
   marketChablaisThree: "Amoureux de la nature et du patrimoine historique, le Chablais offre un paysage unique, allant des montagnes du Haut Chablais où vous pourrez vous adonner aux plaisirs de la montagne, aux rives du lac Léman où les activités lacustres rythment la vie des habitants. Genève est également connue pour ses spas. Stations internationales à la Belle Époque, les stations d'Evian-les-Bains et de Thonon-les-Bains sont réputées pour soigner toutes sortes de fatigues."
   marketChablaisFour: "Vous souhaitez trouver une maison à vendre à Thonon-les-Bains ou vendre un bien dans le Chablais ? Peillex, agence immobilière à Thonon, Douvaine et Sciez vous propose ses services et son expérience pour faciliter toute vente ou achat dans la région."
 
+  # Navigation Bar
+  peillexProperty: 'Peillex Immobilier'
+  home: 'Acceuil'
+  properties: 'Propriétés'
+  contact: 'Contact'
+  logOut: 'Se déconnecter'
+  logIn: "S'identifier"
+  signUp: "S'inscrire"
+  remember: 'Se souvenir de moi'
+
   # Home page team
   OurTeam: "Nos équipes"
   OurTeamSub: "Tous les agents immobiliers chez Peillex property"
   # Home page Blogs
   latestBlogs: "Dernières publications"
   latestBlogsSub: "Vous voulez rester informé sur le marché de l'immobilier ?"
+
+  # Dashboard
+  dashboard: 'Tableau de bord'
+  # Side bar Dashboard
+  account: 'Compte'
+  settings: 'Paramètres'
+  myProfile: 'Mon profil'
+  editAccount: 'Modifier mon compte'
+  # Dashboard Properties
+  listPropertiesDashboard: 'Liste des propriétés de tous les agents'
+
+  # Dashboard accounts
+  accounts: 'Comptes'
+  listAllAccounts: 'Liste de tous les comptes'
+
+  # Dashboard Edit Accounts
+  editAccount: 'Modifier mon compte'
+  descriptionEditAccount: 'Modifiez le champ pour mettre à jour votre compte'
+
+  # Dashboard posts
+  resumeAllPosts : 'Tous les posts de notre site Web'
+
+  # Filter Section
+  allType: 'Tous les types'
+  appartement: 'Appartement'
+  house: 'Maison'
+  # City Fitler
+  city: 'Ville'
+  allCity: 'Toutes les villes'
+  # Price Fitler
+  price: 'Prix maximum'
+  noPrice: 'Illimité'
+  # Button Filter
+  searchProperty: 'Rechercher une propriété'
+
+  # Show Properties
+  propertyDescription: 'Description de la propriété'
+  amenities: 'Description'
+  otherProperties: 'Autres propriétés de'
 
   # Agencies Thonon
   hoursThonon: "Du lundi au vendredi : 8h30-12h00 / 14h00-18h30 Samedi : 8h30-12h00"

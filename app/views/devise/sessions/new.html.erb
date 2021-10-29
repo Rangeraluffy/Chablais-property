@@ -2,7 +2,7 @@
   <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
 
     <%= link_to image_tag("logo_2.png", class: "logo_signIn", alt: "logo_Peillex_Property")%>
-    <h1 class="h3 mb-3 font-weight-normal">Log In</h1>
+    <h1 class="h3 mb-3 font-weight-normal"><%= translate('logIn') %></h1>
     <label for="inputEmail" class="sr-only">Email address</label>
     <%= f.email_field :email, autofocus: true, class: "form-control mb-2", id: "inputEmail", placeholder: "Email adress", autocomplete: "current-email" %>
 
@@ -11,10 +11,10 @@
 
     <div class="checkbox mb-3">
       <label>
-        <input type="checkbox" value="remember-me"> Remember me
+        <input type="checkbox" value="remember-me"><%= translate('remember') %>
       </label>
     </div>
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Log In</button>
+    <button class="btn btn-lg btn-primary btn-block" type="submit"><%= translate('logIn') %></button>
     <p class="mt-5 mb-3 text-muted">© 2021-2021</p>
 
 <% end %>

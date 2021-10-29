@@ -11,12 +11,61 @@ it:
   marketChablaisThree: "Amanti della natura e del patrimonio storico, lo Chablais offre un paesaggio unico, che spazia dalle montagne dell'Alto Chablais, dove è possibile abbandonarsi ai piaceri della montagna, alle rive del Lago di Ginevra, dove le attività lacustri scandiscono la vita degli abitanti. Ginevra è anche conosciuta per le sue terme. Stazioni internazionali durante la Belle Époque, le stazioni di Evian-les-Bains e Thonon-les-Bains sono rinomate per il trattamento di tutti i tipi di stanchezza."
   marketChablaisFour: "Vuoi trovare una casa in vendita a Thonon-les-Bains o vendere una proprietà nello Chablais? Peillex, un'agenzia immobiliare a Thonon, Douvaine et Sciez, ti offre i suoi servizi e la sua esperienza per facilitare qualsiasi vendita o acquisto nella regione."
 
+  # Navigation Bar
+  peillexProperty: 'Peillex Immobiliare'
+  home: 'Casa'
+  properties: 'Proprietà'
+  contact: 'Contatto'
+  logOut: 'Esci'
+  logIn: "Identificarsi"
+  signUp: "Per registrarsi"
+  remember: 'Ricordati di me'
+
   # Home page team
   OurTeam: "Le nostre squadre"
   OurTeamSub: "Tutti gli agenti immobiliari della proprietà Peillex"
   # Home page Blogs
   latestBlogs: "Ultime pubblicazioni"
   latestBlogsSub: "Vuoi rimanere informato sul mercato immobiliare?"
+
+  # Dashboard
+  dashboard: 'Pannello di controllo'
+  # Side bar Dashboard
+  account: 'Account'
+  settings: 'Impostazioni'
+  myProfile: 'Il mio profilo'
+  editAccount: 'Modifica account'
+  # Dashboard Properties
+  listPropertiesDashboard: 'Elenco delle proprietà di tutti gli agenti'
+
+  # Dashboard accounts
+  accounts: 'Conti'
+  listAllAccounts: 'Elenco di tutti gli account'
+
+  # Dashboard Edit Accounts
+  editAccount: 'Modifica il mio account'
+  descriptionEditAccount: 'Modifica il campo per aggiornare il tuo account'
+
+  # Dashboard posts
+  resumeAllPosts : 'Riprendi tutti i post nel nostro sito web'
+
+  # Filter Section
+  allType: 'Tutti i tipi'
+  appartement: 'Appartamento'
+  house: 'Casa'
+  # City Fitler
+  city: 'Città'
+  allCity: 'Tutta la città'
+  # Price Fitler
+  price: 'Prezzo massimo'
+  noPrice: 'Illimitato'
+  # Button Filter
+  searchProperty: 'Cerca proprietà'
+
+  # Show Properties
+  propertyDescription: 'Descrizione della proprietà'
+  amenities: 'Servizi'
+  otherProperties: 'Altre proprietà di'
 
   # Agencies Thonon
   hoursThonon: 'Dal lunedì al venerdì: 8.30-12.00 / 14.00-18.30 Sabato: 8.30-12.00'

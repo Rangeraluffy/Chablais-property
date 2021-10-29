@@ -6,19 +6,19 @@
     </ul>
 
 <h6 class="sidebar-heading d-flex text-center px-3 mt-4 mb-1 text-muted pb-3">
-  <h1 class="settings-title">Settings</h1>
+  <h1 class="settings-title"><%= translate('settings') %></h1>
 </h6>
 <ul class="nav flex-column mb-2">
   <li class="nav-item mb-3">
     <%= link_to profile_path(current_account), class: "nav-link" do %>
       <i class="far fa-user-circle pr-3"></i>
-      My Profile
+      <%= translate('myProfile') %>
     <% end %>
   </li>
   <li class="nav-item mb-3">
     <%= link_to edit_account_registration_path, class: "nav-link" do %>
       <i class="fas fa-cogs pr-3"></i>
-      Edit Account
+      <%= translate('editAccount') %>
     <% end %>
   </li>
 </ul>

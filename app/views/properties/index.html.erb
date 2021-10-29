@@ -4,8 +4,8 @@
     <div class="row">
       <div class="col-md-12 col-lg-8">
         <div class="title-single-box">
-          <h1 class="title-single">Properties</h1>
-            <h3 class="sinse-title"">List of properties of all agents </h3>
+          <h1 class="title-single"><%= translate('properties') %></h1>
+            <h3 class="sinse-title""><%= translate('listPropertiesDashboard') %></h3>
         </div>
       </div>
     </div>
@@ -14,17 +14,17 @@
         <div class="form-group mt-3">
           <label class="pb-2" for="Type">Type</label>
           <select class="form-control form-select form-control-a" id="Type">
-            <option>All Type</option>
-            <option>Appartement</option>
-            <option>House</option>
+            <option><%= translate('allType') %></option>
+            <option><%= translate('appartement') %></option>
+            <option><%= translate('house') %></option>
           </select>
         </div>
       </div>
       <div class="col-md-4 mb-2">
         <div class="form-group mt-3">
-          <label class="pb-2" for="city">City</label>
+          <label class="pb-2" for="city"><%= translate('city') %></label>
           <select class="form-control form-select form-control-a" id="city">
-            <option>All City</option>
+            <option><%= translate('allCity') %></option>
             <option>Thonon-les-bains</option>
             <option>Allinges</option>
           </select>
@@ -32,9 +32,9 @@
       </div>
       <div class="col-md-4 mb-2">
         <div class="form-group mt-3">
-          <label class="pb-2" for="price">Maximum Price</label>
+          <label class="pb-2" for="price"><%= translate('maximumPrice') %></label>
           <select class="form-control form-select form-control-a" id="price">
-            <option>Unlimite</option>
+            <option><%= translate('noPrice') %></option>
             <option>$200,000</option>
             <option>$500,000</option>
             <option>$700,000</option>
@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="col-md-12 text-center">
-        <button type="submit" class="btn btn-a">Search Property</button>
+        <button type="submit" class="btn btn-a"><%= translate('searchProperty') %></button>
       </div>
     </div>
   </div>

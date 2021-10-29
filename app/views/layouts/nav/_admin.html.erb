@@ -1,7 +1,7 @@
 <li class="nav-item mb-3">
   <%= link_to accounts_path, class: "nav-link" do %>
   <i class="fas fa-user-friends pr-3"></i>
-    Accounts
+    <%= translate('account') %>
     <span class="sr-only">(current)</span>
   <% end %>
 </li>
@@ -13,5 +13,5 @@
 </li>
 <%= link_to properties_path, class: "nav-link" do %>
   <i class="fas fa-home pr-3"></i>
-  Properties
+  <%= translate('properties') %>
 <% end %>

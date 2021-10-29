@@ -3,7 +3,7 @@
   <%= render "devise/shared/error_messages", resource: resource %>
 
       <%= link_to image_tag("logo_2.png", class: "logo_signIn", alt: "logo_Peillex_Property")%>
-      <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1>
+      <h1 class="h3 mb-3 font-weight-normal"><%= translate('signUp') %></h1>
 
         <%= f.text_field :first_name, autofocus: true, class: "form-control mb-2", placeholder: "First name" %>
         <%= f.text_field :last_name, class: "form-control mb-2", placeholder: "Last name" %>
@@ -11,7 +11,7 @@
         <%= f.password_field :password, autocomplete: "new-password", class: "form-control mb-2", placeholder: "Password"  %>
         <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control mb-2", placeholder: "Password confirmation" %>
 
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+      <button class="btn btn-lg btn-primary btn-block" type="submit"><%= translate('signUp') %></button>
 
   <% end %>
 
