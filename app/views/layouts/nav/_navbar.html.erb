@@ -41,6 +41,17 @@
         <% end %>
       </ul>
     </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <div class="row">
+          <ul class="languages-nav">
+            <% I18n.available_locales.each do |locale| %>
+            <li><%= link_to locale, url_for(locale: locale), class: "nav-link" %></li>
+            <% end %>
+          </ul>
+        </div>
+      </li>
+    </ul>
   </div>
 </nav>
 <!-- End Header/Navbar -->

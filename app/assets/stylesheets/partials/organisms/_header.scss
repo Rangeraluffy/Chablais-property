@@ -1,6 +1,18 @@
 /*--------------------------------------------------------------
 # Navbar
 --------------------------------------------------------------*/
+
+// Languages navigation bar
+.languages-nav {
+  justify-content: center;
+  display: flex;
+  li {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+  }
+}
+
 // nav bar container
 .navbar-default {
   padding-top: 28px;
