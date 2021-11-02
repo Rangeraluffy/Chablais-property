@@ -7,7 +7,7 @@
 }
 .mt{float: left;margin-top: -20px;padding-top: 20px;}
 .bg-blue-ui {
-  background-color: #21aeda !important;
+  background-color: $primary-color !important;
 }
 
 .item-box-blog {
@@ -38,7 +38,7 @@
 }
 
 .item-box-blog-date span {
-  color: #fff;
+  color: $white;
   display: block;
   text-align: center;
   line-height: 1.2;

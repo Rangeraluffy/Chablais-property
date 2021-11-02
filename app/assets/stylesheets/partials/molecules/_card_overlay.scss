@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 .card-overlay a {
-  color: #ffffff;
+  color: $white;
   text-decoration: none;
 }
 
@@ -97,7 +97,7 @@
 
 .sub-title-property{
   font-size: 1.8em;
-  color: #ffffff;
+  color: $white;
   text-decoration: none;
 }
 
@@ -111,10 +111,10 @@
 
 .card-header-a {
   padding: 0 1rem;
-  color: white;
+  color: $white;
 }
 .card-header-a .card-title-a {
-  color: #ffffff;
+  color: $white;
   margin-bottom: 0;
   padding-bottom: 0.7rem;
 }
@@ -129,7 +129,7 @@
   }
 }
 .card-header-a .card-title-a a {
-  color: #ffffff;
+  color: $white;
   text-decoration: none;
 }
 
@@ -143,9 +143,9 @@
 }
 
 .price-a {
-  color: #ffffff;
+  color: $white;
   padding: 0.6rem 0.8rem;
-  border: 2px solid #21aeda;
+  border: 2px solid $primary-color;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -155,7 +155,7 @@
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: #21aeda;
+  background-color: $primary-color;
   text-align: center;
 }
 
@@ -170,7 +170,7 @@
 }
 
 .card-info li span {
-  color: #ffffff;
+  color: $white;
   font-size: 0.9rem;
 }
 

@@ -1,7 +1,7 @@
 /* =============================
  * BUTTON SUBMIT / SEND
  =============================== */
- 
+
 .btn.btn-a, .btn.btn-b {
   border-radius: 0;
   padding: 1rem 3rem;
@@ -9,10 +9,10 @@
 }
 .btn.btn-a {
   text-decoration: none;
-  background-color: #21aeda;
-  color: white;
+  background-color: $primary-color;
+  color: $white;
 }
 .btn.btn-a:hover {
-  background-color: #000000;
-  color: white;
+  background-color: $black;
+  color: $white;
 }

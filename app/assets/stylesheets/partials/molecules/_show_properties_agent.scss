@@ -12,7 +12,7 @@
 
 .summary-list {
     padding-right: 1rem;
-    color: #000000;
+    color: $black;
 }
 
 .summary-list .list {
@@ -43,7 +43,7 @@
 
 .card-box-ico {
   padding: 0rem 3rem 0rem 2.5rem;
-  border: 5px solid #21aeda;
+  border: 5px solid $primary-color;
 }
 
 .property-summary {
@@ -82,7 +82,7 @@
     position: absolute;
     width: 70px;
     height: 4px;
-    background-color: #21aeda;
+    background-color: $primary-color;
     bottom: 20px;
     left: 0;
 }

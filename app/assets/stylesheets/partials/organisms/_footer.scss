@@ -30,7 +30,7 @@
  }
  .footer-col{
    .text-brand {
-     color: #000000;
+     color: $black;
      font-size: 1.6rem;
      font-weight: 600;
      padding: 15px 0px;
@@ -41,7 +41,7 @@
      }
    }
    .item-list-footer {
-     color: #000000;
+     color: $black;
      font-size: 1.6rem;
      font-weight: 600;
    }
@@ -60,7 +60,7 @@
  }
  .footer-col ul li a{
    text-transform: capitalize;
-   color: black;
+   color: $black;
    text-decoration: none;
    font-weight: 300;
    display: block;
@@ -68,7 +68,7 @@
    transition: all 0.3s ease;
  }
  .footer-col ul li a:hover{
-   color: #21aeda;
+   color: $primary-color;
    padding-left: 8px;
  }
  .footer-col .social-links a{
@@ -80,12 +80,12 @@
    text-align: center;
    line-height: 40px;
    border-radius: 50%;
-   color: black;
+   color: $black;
    transition: all 0.5s ease;
  }
  .footer-col .social-links a:hover{
-   color: black;
-   background-color: #21aeda;
+   color: $black;
+   background-color: $primary-color;
  }
 
  /* END FOOTER */

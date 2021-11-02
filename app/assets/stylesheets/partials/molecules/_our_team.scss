@@ -7,7 +7,7 @@
 }
 
 .team_member{
-  width: 250px;
+  width: 400px;
   margin: 5px;
   background: #fff;
   padding: 20px 10px;
@@ -80,7 +80,7 @@
   margin: 0 10px;
 }
 .team_member .member_img .social_media .fab{
-  color: #21aeda;
+  color: $primary-color;
   font-size: 20px;
 }
 
