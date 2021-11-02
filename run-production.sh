@@ -1,0 +1,6 @@
+export SECRET_KEY_BASE=0fd49af909c90f5e0ccb0ee6a23a53a897d12f0aafb79cc1c6d9133011aba2b01c6729bd6bba3faade08b012ad3533152a372964f16c7a29f6097097dd968807
+export AWS_ACCESS_KEY=AKIA4OBJNTYDEG5RJ5FK
+export AWS_SECRET_KEY=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
+export AWS_BUCKET=peillex-real-estate
+export RAILS_SERVE_STATIC_FILES=true
+rails server --environment production
