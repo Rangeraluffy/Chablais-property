@@ -25,77 +25,25 @@
   left: 15px;
   bottom: 10px;
 }
-@media (min-width: 576px) {
-  .sinse-box {
-    padding: 1.5rem 2.5rem;
-    bottom: 20px;
-  }
-}
-@media (min-width: 768px) {
-  .sinse-box {
-    padding: 1.5rem 3rem;
-  }
-}
-@media (min-width: 992px) {
-  .sinse-box {
-    padding: 2rem 3.5rem;
-  }
-}
+
 .sinse-box .sinse-title {
   font-weight: 700;
   letter-spacing: 0.043em;
   font-size: 1rem;
 }
-@media (min-width: 576px) {
-  .sinse-box .sinse-title {
-    font-size: 1.3rem;
-  }
-}
-@media (min-width: 768px) {
-  .sinse-box .sinse-title {
-    font-size: 1.8rem;
-  }
-}
-@media (min-width: 992px) {
-  .sinse-box .sinse-title {
-    font-size: 1.2rem;
-  }
-}
+
 .sinse-box p {
   margin-bottom: 0;
   font-size: 0.7rem;
-}
-@media (min-width: 576px) {
-  .sinse-box p {
-    font-size: 1rem;
-  }
 }
 
 /*------/ Space Padding /------*/
 .section-t8 {
   padding-top: 8rem;
 }
-@media (max-width: 767px) {
-  .section-t8 {
-    padding-top: 4rem;
-  }
-}
-
 .section-t4 {
   padding-top: 4rem;
 }
-@media (max-width: 767px) {
-  .section-t4 {
-    padding-top: 2rem;
-  }
-}
-
 .section-t3 {
   padding-top: 3rem;
-}
-
-@media (max-width: 767px) {
-  .section-md-t3 {
-    padding-top: 3rem;
-  }
 }
