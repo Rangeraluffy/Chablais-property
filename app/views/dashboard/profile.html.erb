@@ -18,7 +18,16 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="summary-desciption row justify-content-between">
-          <div class="col-md-5 col-lg-4">
+          <div class="col-sm-8">
+            <div class="title-box-d section-t4">
+              <h3 class="title-d">Description</h3>
+            </div>
+            <div id="prop-details">
+              <strong class="span-property-summary"><%= simple_format @account.details%> </strong>
+            </div>
+            <button id="toggleDetails" type="button" name="button" class="btn btn-outline-info mt-4 col-sm-4">Show more</button>
+          </div>
+          <div class="col-md-6 col-lg-4">
             <div class="property-summary">
               <div class="row">
                 <div class="col-sm-12">
@@ -30,20 +39,12 @@
               <div class="summary-list">
                 <ul class="list">
                   <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Sold :</strong>
-                    <span><%= @properties_sold %></span>
-                  </li>
-                  <li class="d-flex justify-content-between">
                     <strong class="span-property-summary">Offer :</strong>
                     <span><%= @properties_offer %></span>
                   </li>
                   <li class="d-flex justify-content-between">
                     <strong class="span-property-summary">For Sale :</strong>
                     <span><%= @properties_for_sale %></span>
-                  </li>
-                  <li class="d-flex justify-content-between">
-                    <strong class="span-property-summary">Estimate :</strong>
-                    <span><%= @properties_estimate %></span>
                   </li>
                 </ul>
               </div>
