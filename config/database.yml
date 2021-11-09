@@ -21,9 +21,5 @@ test:
   database: db/test.sqlite3
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: peillexproperty
-  pool: 5
-  username: propertypeillex
-  password: secret
+  <<: *default
+  database: db/production.sqlite3
