@@ -48,6 +48,8 @@ GEM
     aliyun-sdk (0.8.0)
       nokogiri (~> 1.6)
       rest-client (~> 2.0)
+    archive-zip (0.12.0)
+      io-like (~> 0.3.0)
     arel (9.0.0)
     awesome_print (1.9.2)
     bcrypt (3.1.16)
@@ -207,6 +209,8 @@ GEM
       fog-core
       nokogiri (>= 1.5.11, < 2.0.0)
     formatador (0.3.0)
+    geckodriver-helper (0.24.0)
+      archive-zip (~> 0.7)
     globalid (0.5.2)
       activesupport (>= 5.0)
     http-accept (1.7.0)
@@ -214,6 +218,7 @@ GEM
       domain_name (~> 0.5)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
+    io-like (0.3.1)
     ipaddress (0.8.3)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
@@ -379,6 +384,7 @@ DEPENDENCIES
   devise
   figaro
   fog (~> 1.37.0)
+  geckodriver-helper
   jbuilder (~> 2.5)
   kaminari
   listen (>= 3.0.5, < 3.2)
