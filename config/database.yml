@@ -25,10 +25,5 @@ production:
   encoding: unicode
   database: peillexproperty
   pool: 5
-<<<<<<< HEAD
   username: propertypeillex
   password: secret
-=======
-  username: peillexproperty
-  password: 12345
->>>>>>> 45c96348e00c3aa1174336a9bc460d817e599c37
