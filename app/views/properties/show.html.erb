@@ -3,7 +3,7 @@
     <div class="col-sm-12 col-lg-8">
       <div class="title-single-box">
         <h1 class="title-single"><%= @property.name %></h1>
-        <h3 class="sinse-title""><%= @property.address %></h3>
+        <h2 class="sinse-title"><%= @property.address %></h2>
       </div>
     </div>
     <div class="col-sm-3 mb-2">
@@ -27,13 +27,13 @@
           <div class="col-md-5 col-lg-4">
             <div class="d-flex justify-content-center foo">
               <div class="card-header-c d-flex">
-                  <div class="card-title-c align-self-center">
-                    <h1 class="title-c"><%= @property.price > 0 ? number_to_currency(@property.price) : "For Sale" %></h1>
-                    <p><%= link_to "Est. Price per Square metters #{ number_to_currency((@property.price / @property.area))}", "#", class: "price-metters text-center" %></p>
-                  </div>
+                <div class="card-title-c align-self-center">
+                  <h1 class="title-c"><%= @property.price > 0 ? number_to_currency(@property.price) : "For Sale" %></h1>
+                  <p><%= link_to "Est. Price per Square metters #{ number_to_currency((@property.price / @property.area))}", "#", class: "price-metters text-center" %></p>
+                </div>
               </div>
             </div>
-          <iframe class="map-show-property col-sm-12" width="480" height="240" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBwOWZ_C1sw6lYJhxYk_LJJCI2uM9GW8IA&q=<%= @property.address.to_param %>" allowfullscreen></iframe>
+            <iframe class="map-show-property col-sm-12" width="480" height="240" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBwOWZ_C1sw6lYJhxYk_LJJCI2uM9GW8IA&q=<%= @property.address.to_param %>" allowfullscreen="allowfullscreen"></iframe>
             <% if account_signed_in? %>
               <%= link_to 'Edit', edit_property_path(@property), class: "btn btn-lg btn-success mt-4 col-sm-12" %>
             <% end %>
@@ -42,7 +42,7 @@
             <div class="row">
               <div class="col-sm-12">
                 <div class="title-box-d">
-                  <h3 class="title-d"><%= translate('propertyDescription') %></h3>
+                  <h2 class="title-d"><%= translate('propertyDescription') %></h2>
                 </div>
               </div>
               <div class="property-description col-sm-12">
@@ -52,31 +52,42 @@
                     <%= simple_format @property.details %>
                   </div>
                   <button id="toggleDetails" type="button" name="button" class="btn btn-outline-info col-sm-12">Show more</button>
-              </div>
-              <div class="row section-t3 col-sm-12">
-                <div class="col-sm-12">
-                  <div class="title-box-d">
-                    <h3 class="title-d"><%= translate('amenities') %></h3>
-                  </div>
                 </div>
-                <div class="color-text-a">
-                  <ul class="list-a no-margin">
-                    <li><strong>Rooms</strong><br>
-                      <span><i class="icons-amenities fas fa-home"></i><%= @property.rooms %></span>
-                    </li>
-                    <li><strong>Bathrooms</strong><br>
-                      <span><i class="icons-amenities fas fa-bath"></i><%= @property.bathrooms %></span>
-                    </li>
-                    <li><strong>Bedrooms</strong><br>
-                      <span><i class="icons-amenities fas fa-bed"></i><%= @property.bedrooms %></span>
-                    </li>
-                    <li><strong>Area</strong><br>
-                      <span><i class="icons-amenities far fa-square"></i><%= @property.area %></span>
-                    </li>
-                    <li><strong>Garages</strong><br>
-                      <span><i class="icons-amenities fas fa-car"></i><%= @property.garages %></span>
-                    </li>
-                  </ul>
+                <div class="row section-t3 col-sm-12">
+                  <div class="col-sm-12">
+                    <div class="title-box-d">
+                      <h3 class="title-d"><%= translate('amenities') %></h3>
+                    </div>
+                  </div>
+                  <div class="color-text-a">
+                    <ul class="list-a no-margin">
+                      <li>
+                        <strong>Rooms</strong><br>
+                        <span>
+                          <i class="icons-amenities fas fa-home"></i><%= @property.rooms %></span>
+                      </li>
+                      <li>
+                        <strong>Bathrooms</strong><br>
+                        <span>
+                          <i class="icons-amenities fas fa-bath"></i><%= @property.bathrooms %></span>
+                      </li>
+                      <li>
+                        <strong>Bedrooms</strong><br>
+                        <span>
+                          <i class="icons-amenities fas fa-bed"></i><%= @property.bedrooms %></span>
+                      </li>
+                      <li>
+                        <strong>Area</strong><br>
+                        <span>
+                          <i class="icons-amenities far fa-square"></i><%= @property.area %></span>
+                      </li>
+                      <li>
+                        <strong>Garages</strong><br>
+                        <span>
+                          <i class="icons-amenities fas fa-car"></i><%= @property.garages %></span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -84,13 +95,13 @@
         </div>
       </div>
     </div>
-  </div>
 
     <!-- ======= Start Last Property ======= -->
     <section class="property-grid grid">
       <div class="container">
         <div class="title-single-box">
-          <h1 class="title-single"><%= translate('otherProperties') %> <%= @agent.full_name %></h1>
+          <h1 class="title-single"><%= translate('otherProperties') %>
+            <%= @agent.full_name %></h1>
         </div>
         <div class="row">
           <%= render "properties/list", properties: @agent_properties%>
@@ -98,4 +109,4 @@
       </div>
     </section>
     <!-- ======= End Last Property ======= -->
-</section>
+  </section>

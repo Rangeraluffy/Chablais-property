@@ -5,62 +5,63 @@
       <div class="col-md-12 col-lg-6">
         <div class="title-single-box">
           <h1 class="title-single"><%= translate('latestProperties') %></h1>
-          <h3 class="sinse-title""><%= translate('latestPropertiesSub') %></h3>
+          <h2 class="sinse-title"><%= translate('latestPropertiesSub') %></h2>
         </div>
       </div>
       <%= form_tag "#{get_filterd_properties_path}", :method => :get do %>
-        <div class="row">
-          <div class="col-md-4 mb-2">
-            <div class="form-group mt-3">
-              <label class="pb-2" for="Type">Type</label>
-              <%= select("properties", 'type', ['All Type', 'Appartement', 'House'], {selected: 'All Type' }, class: "form-control form-select form-control-a") %>
-            </div>
-          </div>
-          <div class="col-md-4 mb-2">
-            <div class="form-group mt-3">
-              <label class="pb-2" for="city">City</label>
-              <%= select("properties", 'city', ['All City', 'Thonon-les-bains', 'Allinges', 'Chens-sur-leman', 'Evian-les-bains', 'Sciez', 'Anthy-sur-leman', 'Massongy', 'Douvaine', 'Veigy-Foncenex'], {selected: 'All City'}, class: "form-control form-select form-control-a") %>
-            </div>
-          </div>
-          <div class="col-md-4 mb-2">
-            <div class="form-group mt-3">
-              <label class="pb-2" for="price">Maximum Price</label>
-              <%= select("properties", 'price', [['Unlimited', 'Unlimited'], ['$200,000', '200000'], ['$500,000', '500000'], ['$700,000', '700000'], ['$900,000', '900000']], {selected: 'Unlimited'}, class: "form-control form-select form-control-a") %>
-            </div>
-          </div>
-          <div class="col-md-12 text-center">
-            <button type="submit" class="btn btn-a">Search Property</button>
+      <div class="row">
+        <div class="col-md-4 mb-2">
+          <div class="form-group mt-3">
+            <label class="pb-2" for="Type">Type</label>
+            <%= select("properties", 'type', ['All Type', 'Appartement', 'House'], {selected: 'All Type' }, class: "form-control form-select form-control-a") %>
           </div>
         </div>
-      <% end %>
-    </div>
+        <div class="col-md-4 mb-2">
+          <div class="form-group mt-3">
+            <label class="pb-2" for="city">City</label>
+            <%= select("properties", 'city', ['All City', 'Thonon-les-bains', 'Allinges', 'Chens-sur-leman', 'Evian-les-bains', 'Sciez', 'Anthy-sur-leman', 'Massongy', 'Douvaine', 'Veigy-Foncenex'], {selected: 'All City'}, class: "form-control form-select
+            form-control-a") %>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="form-group mt-3">
+            <label class="pb-2" for="price">Maximum Price</label>
+            <%= select("properties", 'price', [['Unlimited', 'Unlimited'], ['$200,000', '200000'], ['$500,000', '500000'], ['$700,000', '700000'], ['$900,000', '900000']], {selected: 'Unlimited'}, class: "form-control form-select form-control-a") %>
+          </div>
+        </div>
+        <div class="col-md-12 text-center">
+          <button type="submit" class="btn btn-a">Search Property</button>
+        </div>
+      </div>
+    <% end %>
   </div>
+</div>
 </section>
 <!-- End Intro About -->
 
 <div class="grid">
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
+<div class="grid-item"></div>
+<div class="grid-item"></div>
+<div class="grid-item"></div>
+<div class="grid-item"></div>
 
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
+<div class="grid-item"></div>
+<div class="grid-item"></div>
+<div class="grid-item"></div>
+<div class="grid-item"></div>
 
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
+<div class="grid-item"></div>
+<div class="grid-item"></div>
+<div class="grid-item"></div>
+<div class="grid-item"></div>
 </div>
 
 <!-- ======= Start Last Property ======= -->
 <section class="property-grid grid">
-  <div class="container">
-    <div class="row">
-      <%= render "properties/list", properties: @properties %>
-    </div>
+<div class="container">
+  <div class="row">
+    <%= render "properties/list", properties: @properties %>
   </div>
+</div>
 </section>
 <!-- ======= End Last Property ======= -->

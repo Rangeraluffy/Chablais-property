@@ -1,17 +1,17 @@
 <li class="nav-item mb-3">
   <%= link_to accounts_path, class: "nav-link" do %>
   <i class="fas fa-user-friends pr-3"></i>
-    <%= translate('account') %>
-    <span class="sr-only">(current)</span>
-  <% end %>
+  <%= translate('account') %>
+  <span class="sr-only">(current)</span>
+<% end %>
 </li>
 <li class="nav-item mb-3">
-  <%= link_to posts_path, class: "nav-link" do %>
-    <i class="fas fa-clipboard-check pr-3"></i>
-    Blog Posts
-  <% end %>
+<%= link_to posts_path, class: "nav-link" do %>
+<i class="fas fa-clipboard-check pr-3"></i>
+Blog Posts
+<% end %>
 </li>
 <%= link_to properties_path, class: "nav-link" do %>
-  <i class="fas fa-home pr-3"></i>
-  <%= translate('properties') %>
+<i class="fas fa-home pr-3"></i>
+<%= translate('properties') %>
 <% end %>

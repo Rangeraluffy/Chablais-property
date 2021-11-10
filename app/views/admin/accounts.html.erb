@@ -5,7 +5,7 @@
       <div class="col-md-12 col-lg-8">
         <div class="title-single-box">
           <h1 class="title-single"><%= translate('accounts') %></h1>
-            <h3 class="sinse-title""><%= translate('listAllAccounts') %></h3>
+          <h2 class="sinse-title"><%= translate('listAllAccounts') %></h2>
         </div>
       </div>
     </div>
@@ -14,7 +14,7 @@
 <!-- End Intro About -->
 
 <div class="tbl-header">
-  <table cellpadding="0" cellspacing="0" border="0">
+  <table>
     <thead>
       <tr>
         <th class="th-users">User</th>
@@ -27,16 +27,16 @@
 </div>
 
 <div class="tbl-content mb-5">
-   <table cellpadding="0" cellspacing="0" border="0">
-     <tbody>
-       <% @accounts.each do |account| %>
-         <tr>
-           <td><%= account.full_name %></td>
-           <td><%= account.email %></td>
-           <td><%= account.created_at.strftime("%d %m %Y") %></td>
-           <td><%= link_to "View profile", profile_path(account.id) %></td>
-         </tr>
-       <% end %>
-     </tbody>
-    </table>
+  <table>
+    <tbody>
+      <% @accounts.each do |account| %>
+        <tr>
+          <td><%= account.full_name %></td>
+          <td><%= account.email %></td>
+          <td><%= account.created_at.strftime("%d %m %Y") %></td>
+          <td><%= link_to "View profile", profile_path(account.id) %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 </div>

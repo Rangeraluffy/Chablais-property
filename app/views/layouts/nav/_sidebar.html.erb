@@ -5,9 +5,9 @@
       <%= render "layouts/nav/#{ current_account.admin? ? 'admin' : 'user' }" %>
     </ul>
 
-<h6 class="sidebar-heading d-flex text-center px-3 mt-4 mb-1 text-muted pb-3">
-  <h1 class="settings-title"><%= translate('settings') %></h1>
-</h6>
+<h1 class="sidebar-heading d-flex text-center px-3 mt-4 mb-1 text-muted pb-3">
+  <h2 class="settings-title"><%= translate('settings') %></h2>
+</h1>
 <ul class="nav flex-column mb-2">
   <li class="nav-item mb-3">
     <%= link_to profile_path(current_account), class: "nav-link" do %>
