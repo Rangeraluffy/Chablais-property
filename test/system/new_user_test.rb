@@ -28,4 +28,13 @@ class NewUserTest < ApplicationSystemTestCase
     fill_in 'Current password', with: '123456'
     click_on('Update', match: :first)
   end
+
+  test "Error Sign Up" do
+    visit new_account_registration_path
+    fill_in 'First name', with: 'Automating'
+    fill_in 'Last name', with: 'Testing'
+    fill_in 'Email', with: 'automating74@testing.fr'
+    fill_in 'Password confirmation', with: '123456'
+    click_button 'Sign up', match: :first
+  end
 end
