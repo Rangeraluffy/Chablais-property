@@ -31,6 +31,7 @@ en:
   # Dashboard
   dashboard: 'Dashboard'
   # Side bar Dashboard
+  newProperty: 'New property'
   account: 'Account'
   settings: 'Settings'
   myProfile: 'My Profile'

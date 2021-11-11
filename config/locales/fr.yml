@@ -31,6 +31,7 @@ fr:
   # Dashboard
   dashboard: 'Tableau de bord'
   # Side bar Dashboard
+  newProperty: 'Nouvelle Propriété'
   account: 'Compte'
   settings: 'Paramètres'
   myProfile: 'Mon profil'

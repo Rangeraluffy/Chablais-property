@@ -31,6 +31,7 @@ it:
   # Dashboard
   dashboard: 'Pannello di controllo'
   # Side bar Dashboard
+  newProperty: 'Nuova proprietà'
   account: 'Account'
   settings: 'Impostazioni'
   myProfile: 'Il mio profilo'
