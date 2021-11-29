@@ -29,22 +29,30 @@
               <div class="row">
                 <div class="col-md-6 mb-3">
                   <div class="form-group">
-                    <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="<%= translate('YourName') %>" required="required">
+                    <div class="required_fields">
+                      <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="<%= translate('YourName') %>" required="required">
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-6 mb-3">
                   <div class="form-group">
-                    <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="<%= translate('YourEmai') %>" required="required">
+                    <div class="required_fields">
+                      <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="<%= translate('YourEmai') %>" required="required">
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-12 mb-3">
                   <div class="form-group">
-                    <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="<%= translate('Subject') %>" required="required">
+                    <div class="required_fields">
+                      <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="<%= translate('Subject') %>" required="required">
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
-                    <textarea name="message" class="form-control" cols="45" rows="8" placeholder="Message" required="required"></textarea>
+                    <div class="required_fields">
+                      <textarea name="message" class="form-control" cols="45" rows="8" placeholder="Message" required="required"></textarea>
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-12 text-center pb-5">
