@@ -7,7 +7,7 @@ class FilterController < ApplicationController
     @properties = Property.latest
     @posts = Post.latest
 
-    def get_filterd
+    def get_filterd_properties
       filters = params[:properties]
       @properties = Property.all
       if filters.present?
@@ -16,7 +16,7 @@ class FilterController < ApplicationController
         @properties = @properties.where("price <= ?", filters['price'].to_i) if filters['price'] != 'Unlimited'
       end
 
-      render 'index'
+      render 'properties'
     end
   end
 end

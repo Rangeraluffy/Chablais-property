@@ -13,7 +13,12 @@ Rails.application.routes.draw do
       resources :posts
       resources :properties do
         collection do
-          get :get_filterd
+          get :get_filterd_dashboard
+        end
+      end
+      resources :filter do
+        collection do
+          get :get_filterd_properties
         end
       end
 
