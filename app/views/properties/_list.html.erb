@@ -1,7 +1,7 @@
-<div class="carousel owl-carousel">
+
 
   <% properties.each do |property| %>
-    <div class="col-sm-12">
+    <div class="col-sm-4">
       <div class="card-box-a card-shadow">
         <div class="property-thumb" style="background-image: url(<%= property_thumbnail_url (property)%>)">
           <%= link_to "", property_path(property) %>
@@ -51,4 +51,3 @@
       </div>
     </div>
   <% end %>
-</div>
