@@ -15,7 +15,7 @@ en:
   peillexProperty: 'Peillex Property'
   home: 'Home'
   properties: 'Properties'
-  contact: 'Contact'
+  contact: 'About'
   logOut: 'Log out'
   logIn: "Log in"
   signUp: "Sign up"
@@ -98,16 +98,15 @@ en:
   teamDouvaine: 'Meet our team on Douvaine'
   teamTextDouvaine: 'Our team present on Douvaine and ready to welcome you'
 
-  # Contact Us
-  Contact: "Contact Us"
-  ContactQuestion: "If you want to contact us"
-  YourName: "Your Name"
-  YourEmai: "Your Email"
-  Subject: "Subject"
-  Hello: "Say Hello"
-  FindUs: "Find us in"
-  SocialNetworks: "Social networks"
-  SendMessage: "Send Message"
+  # Abut
+  Contact: "About"
+  ContactQuestion: "Description"
+  WhatYouCan: "What you can do on the website"
+  Check: "Check the available properties in the area"
+  SearchProperty: "Search for properties with 3 valus : localisation , price, type"
+  ContactSpecialist: "Contact a specialist for more information"
+  SeeMarket: "See all market related information"
+  SeeSpecialist: "See our specialists present in each agency"
 
   # Footer
   company: "Company"

@@ -1,35 +1,14 @@
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.php-email-form .form-control {
-  border-radius: 0;
-  font-size: 1.1rem;
-  font-weight: 300;
-}
-.php-email-form .form-control.form-control-a {
-  height: 3.5rem;
-}
-.php-email-form .form-control:focus {
-  box-shadow: none;
-  border-color: $primary-color;
+
+.container_about h1{
+  font-size: 50px;
 }
 
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.container_about li{
+  line-height: 75px;
+  font-size: 20px;
 }
 
 .table-cell {

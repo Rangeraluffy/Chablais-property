@@ -25,41 +25,14 @@
       <div class="col-sm-12 section-t2">
         <div class="row">
           <div class="col-md-7">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 mb-3">
-                  <div class="form-group">
-                    <div class="required_fields">
-                      <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="<%= translate('YourName') %>" required="required">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 mb-3">
-                  <div class="form-group">
-                    <div class="required_fields">
-                      <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="<%= translate('YourEmai') %>" required="required">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <div class="form-group">
-                    <div class="required_fields">
-                      <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="<%= translate('Subject') %>" required="required">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <div class="required_fields">
-                      <textarea name="message" class="form-control" cols="45" rows="8" placeholder="Message" required="required"></textarea>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12 text-center pb-5">
-                  <button class="btn btn-a"><%= translate('SendMessage') %></button>
-                </div>
-              </div>
-            </form>
+            <div class="container_about">
+              <h1><%= translate('WhatYouCan')%></h1>
+                <li><%= translate('Check')%></li>
+                <li><%= translate('SearchProperty')%></li>
+                <li><%= translate('ContactSpecialist')%></li>
+                <li><%= translate('SeeMarket')%></li>
+                <li><%= translate('SeeSpecialist')%></li>
+            </div>
           </div>
           <div class="col-md-5 section-md-t3">
             <div class="icon-box section-b2">

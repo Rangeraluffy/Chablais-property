@@ -15,7 +15,7 @@ fr:
   peillexProperty: 'Peillex Immobilier'
   home: 'Acceuil'
   properties: 'Propriétés'
-  contact: 'Contact'
+  contact: 'A propos'
   logOut: 'Se déconnecter'
   logIn: "S'identifier"
   signUp: "S'inscrire"
@@ -98,16 +98,15 @@ fr:
   teamDouvaine: 'Découvre notre équipe sur Douvaine'
   teamTextDouvaine: 'Notre équipe présente sur Douvaine et prête à vous accueillir'
 
-  # Contact Us
-  Contact: "Contactez nous"
-  ContactQuestion: "Si vous voulez nous contacter"
-  YourName: "Votre nom"
-  YourEmai: "Votre email"
-  Subject: "Objet"
-  Hello: "Dites nous bonjour"
-  FindUs: "Trouvez nous"
-  SocialNetworks: "Réseau sociaux"
-  SendMessage: "Envoyer un message"
+  # About
+  Contact: "A propos de"
+  ContactQuestion: "Description"
+  WhatYouCan: "Ce que vous pouvez faire sur le site Web"
+  Check: "Consultez les propriétés disponibles dans la région"
+  SearchProperty: "Recherche de biens avec 3 valeurs : localisation , prix, type"
+  ContactSpecialist: "Contactez un spécialiste pour plus d'informations"
+  SeeMarket: "Voir toutes les informations relatives au marché"
+  SeeSpecialist: "Voir nos spécialistes présents dans chaque agence"
 
   # Footer
   company: "Société"

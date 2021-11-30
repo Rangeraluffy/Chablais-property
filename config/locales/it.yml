@@ -15,7 +15,7 @@ it:
   peillexProperty: 'Peillex Immobiliare'
   home: 'Casa'
   properties: 'Proprietà'
-  contact: 'Contatto'
+  contact: 'Riguardo a'
   logOut: 'Esci'
   logIn: "Identificarsi"
   signUp: "Per registrarsi"
@@ -98,16 +98,15 @@ it:
   teamDouvaine: 'Incontra il nostro team su Douvaine'
   teamTextDouvaine: 'Il nostro team presente su Douvaine e pronto ad accogliervi'
 
-  # Contact Us
-  Contact: "Contattaci"
-  ContactQuestion: "Se vuoi contattarci"
-  YourName: "Il tuo nome"
-  YourEmai: "La tua email"
-  Subject: "Soggetto"
-  Hello: "Di Ciao"
-  FindUs: "Ci trovi in"
-  SocialNetworks: "Social networks"
-  SendMessage: "Invia messaggio"
+  # About
+  Contact: "Sul mio progetto"
+  ContactQuestion: "Descrizione"
+  WhatYouCan: "Cosa puoi fare sul sito web"
+  Check: "Verifica gli immobili disponibili in zona"
+  SearchProperty: "Cerca immobili con 3 valori : localizzazione , prezzo, tipologia"
+  ContactSpecialist: "Contatta uno specialista per maggiori informazioni"
+  SeeMarket: "Vedi tutte le informazioni relative al mercato"
+  SeeSpecialist: "Guarda i nostri specialisti presenti in ogni agenzia"
 
   # Footer
   company: "Società"
