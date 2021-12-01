@@ -8,8 +8,8 @@
 #
 admin = Account.create!(
                         first_name: 'Admin',
-                        last_name: 'Admin',
-                        email: 'admin@peillex.com',
+                        last_name: 'Peillex',
+                        email: 'info.property.peillex@gmail.com',
                         password: '123456',
                         password_confirmation: '123456',
                         admin: 'true'
