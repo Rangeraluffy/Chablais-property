@@ -83,6 +83,19 @@ Rails.application.configure do
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
 
+  config.action_mailer.default_url_options =
+  { :host => 'localhost:3000' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              'smtp.gmail.com',
+    port:                 587,
+    domain:               'heroku.com',
+    user_name:            'apikey',
+    password:             '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',
+    authentication:       'login',
+    enable_starttls_auto: true
+  }
+
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
