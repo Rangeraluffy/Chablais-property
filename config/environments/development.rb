@@ -59,7 +59,7 @@ Rails.application.configure do
   config.assets.quiet = true
 
   #Disbale for rails s
-  # config.webpacker.check_yarn_integrity = false
+  config.webpacker.check_yarn_integrity = false
 
 
   # Raises error for missing translations
