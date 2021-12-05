@@ -68,6 +68,8 @@ The application was developped using the following concepts and technologies:
 
 Currently the only modification made compared to the initial project is to add a filter section to the properties dashboard panel, without models, a filter which can sort by price, city.
 
+Regarding the contact page I replaced it with the about page, currently the user who wishes to buy benefits from the announcement of the property of the name and surname plus phone and email address to contact the person in charge of this property.
+
 ## Challenges issues encountered
 
 Here are two problems that I encountered that gave me a lot of thought and research the first was actually a simple error that I did not see directly the second was really complicated to find between the doubt of the problem of my application or by AWS.
@@ -104,6 +106,24 @@ So I looked for another solution that maybe came not from my bucket but from my 
 3. AmazonAdministrator
 
 I don't know when I attached this one, so I removed the Quarantine and Administrator policy and the image modifications as well as the destruction worked correctly so I suppose that the policies must have conflicted, but this problem caused me a lot of worries and also took a lot of time
+
+### Action Mailer Send Grid
+
+I use the currency gem which allows to confirm the creation of an account. This is mandatory and the users receive an email on his mailbox to click on a link.
+
+I had disabled it at the beginning because I didn't understand how in production I could receive the confirmation email that I received in the development console.
+
+I thought this was a very important feature on my site so I looked for a solution.
+
+So in my folder App#models#Account : At the beginning of my file I put back the interaction with the currency gem by adding :confirmable.
+
+With a lot of research I discovered that I could go through a mail platform communication system so I found SendGrids for free.
+
+All I had to do was create an account with all the necessary information and security.
+
+I had to add the necessary lines to config.action_mailer, such as the host output port, as well as the name of the email address that will send the email.
+
+And define the actionMail in the environment with the name created in send Grids as well as the secret key assigned to it so that the project and SendGrids can work together.
 
 ## Future Implementation
 
