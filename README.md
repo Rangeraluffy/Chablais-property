@@ -8,7 +8,7 @@ The main goal of this project is to put into practice the knowledge I have acqui
 2. Interactive web pages
 3. Introduction to Ruby on Rails
 4. Dynamic web applications
-The app has been deployed in Heroku to the following URL: https://aqueous-plateau-25318.herokuapp.com/.
+The app has been deployed in Heroku to the following URL: https://chablais-property.herokuapp.com/.
 
 ## The "Peillex Real Estate " application
 
