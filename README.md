@@ -1,6 +1,6 @@
 # Peillex Properties
 
-This is the Capstone Project for the Web Application Development Program. This project was developed by Alexandre Marolleau, as a final step to complete the full program of EPFL Extension School.
+This is the Capstone Project for the Web Application Development Program. This project was developed by Alexandre Marolleau, as a final step to complete the full program of EPFL Extension School. https://chablais-property.herokuapp.com/
 
 ## Project overview
 
