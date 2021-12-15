@@ -41,27 +41,20 @@ Currently the versions of my project are:
 
 ### 1. Navigation bar
 
-![navigation bar](navigation_bar.png "navigation_bar.png")
-
  It will allow you navigate between several pages, so it will have links to :
 
  * **Home page** : Will therefore return to the home page from any pages.
 
  * **Properties** : Redirect to the about section where you can find out the Moynat Peillex property.
 
- ![properties grid](properties.png "grid properties")
-
  **CSS Grid**
  *In the public view#properties this allows me to offer a distribution of space between the elements of an interface and to manage the responsibility*
-
- ![Filter property](properties_filter.png "filter properties")
 
  **Rails**
  *In the view#properties in this section that will show all the properties currently online, there will be the possibility to filter the properties by characteristic*
 
  * **Blog** : Allows you to learn about news related to the agency or the market, therefore to inform about external or internal events, on new laws related to real estate how to sell under the best conditions.
 
- ![paginate blog](paginate.png "paginate.png")
  **Gem Paginate**
  *In the view posts#show will benefit from the paginate gem*
 
@@ -72,8 +65,6 @@ Currently the versions of my project are:
  * **Log In** : Allows the administrator to log In, to create accounts for the agents who work in the company and to manage the site, also this one will have access to the creation of account.
 
  * **Translation** : My application will be translated in English and possibility with French and Italian.
-
- ![animation bar](animation.png "animation for navigation bar")
 
  **CSS Animation**
  *In the public view#main to the navigation bar, when the mouse will hover over a tab an animation will appear to give a feedback to the users*
@@ -122,16 +113,12 @@ Currently the versions of my project are:
 
 ### 2. Home page :
 
-![carrousel for banner](carrousel.png "carrousel")
-
 **Javascript for carousel**
 *In the public#main view for the main page banner I will add a carousel that will switch different images, to make the page more dynamic.*
 
 This will have several sections :
 
   **1st section** : The latest properties that were created by agents.
-
-  ![hover property](hover_property.png "hover for property")
 
   **CSS Hover**
   *In the public#main view for the propeties will benefit from css to animate the fact of hovering the mouse over an image to obtain additional information*
@@ -140,27 +127,18 @@ This will have several sections :
 
   **3rd section** : A summary of all the teams members with their contact details.
 
-  ![carrousel for team](carousel_team.png "carrousel_team")
-
   **Javascript for carousel**
   *In the public#main view for the section agent I will add a carousel that will switch different agent, to make the page more dynamic.*
-
-
-  ![hover team](hover_carousel.png "carrousel hover")
 
   **CSS Hover for team**
   *In the public#main view for the section agent I will add hover agent that will animate this section, to make the page more dynamic.*
 
   **4th section** : The latest news published on Blogs.
 
-  ![carrousel for banner](carrousel.png "carrousel")
-
   **Javascript for carousel**
   *In the public#main view for the main page banner I will add a carousel that will switch different images, to make the page more dynamic.*
 
 ### 3. Footer :
-
-![footer](footer.png "footer")
 
 The footer is divided into 4 parts :
 
@@ -171,8 +149,6 @@ The footer is divided into 4 parts :
   **3rd parts** : With different languages in which the site can be translated.
 
   **4th parts** : Social media links.
-
-![footer](footer_animation.png "footer animated")
 
 **CSS Animation**
 *In the public view#main to the footer it, when the mouse will hover over a tab an animation will appear to give a feedback to the users*
